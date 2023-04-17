@@ -62,6 +62,27 @@ const config = {
   ],
 
   plugins: [
+    // [ ONLY FUNCTIONING UPON PRODUCTION
+    //   '@docusaurus/plugin-client-redirects',
+    //   {
+    //     fromExtensions: ['html'],
+    //     redirects: [
+    //        {
+    //          to: ''
+    //          from: ['/','/example']
+    //        }
+    //     ],
+    //     createRedirects(existingPath) {
+    //       if (existingPath.includes('/guide')) {
+    //         return [
+    //           existingPath.replace('/guide', '/docs'),
+    //           existingPath.replace('/guide', '/docs'),
+    //         ];
+    //       }
+    //       return undefined;
+    //     },
+    //   },
+    // ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -70,7 +91,7 @@ const config = {
         routeBasePath: 'guide',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-      }, 
+      },
     ],
     [
       '@docusaurus/plugin-content-docs',
@@ -80,13 +101,13 @@ const config = {
         routeBasePath: 'resources',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-      }, 
+      },
     ],
-],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({      
+    ({
       algolia: {
         appId: 'BQBI23OQ61',
         apiKey: '3b00c9db7f6cbe12d5c5d40b58f1d7e3',
@@ -108,7 +129,7 @@ const config = {
             docId: 'tutorial',
             position: 'left',
             label: 'Tutorial',
-          },          
+          },
           {
             to: '/guide/guide',    // ./docs-api/Intro.md
             label: 'Guide',
@@ -148,7 +169,7 @@ const config = {
               },
               {
                 label: 'Guide',
-                to: 'guide/guide',
+                to: '/guide/guide',
               },
             ],
           },
