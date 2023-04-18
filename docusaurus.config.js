@@ -59,6 +59,15 @@ const config = {
         },
       },
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-S6RRDF6PG8',
+          anonymizeIP: true,
+        },
+      },
+    ],
   ],
 
   plugins: [
