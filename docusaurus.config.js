@@ -62,27 +62,27 @@ const config = {
   ],
 
   plugins: [
-    // [ ONLY FUNCTIONING UPON PRODUCTION
-    //   '@docusaurus/plugin-client-redirects',
-    //   {
-    //     fromExtensions: ['html'],
-    //     redirects: [
-    //        {
-    //          to: ''
-    //          from: ['/','/example']
-    //        }
-    //     ],
-    //     createRedirects(existingPath) {
-    //       if (existingPath.includes('/guide')) {
-    //         return [
-    //           existingPath.replace('/guide', '/docs'),
-    //           existingPath.replace('/guide', '/docs'),
-    //         ];
-    //       }
-    //       return undefined;
-    //     },
-    //   },
-    // ],
+    [ //ONLY FUNCTIONING UPON PRODUCTION
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        redirects: [
+           {
+             to: '/test',
+             from: ['/test/test']
+           }
+        ],
+        createRedirects(existingPath) {
+          // if (existingPath.includes('/guide')) {
+          //   return [
+          //     existingPath.replace('/guide', '/docs'),
+          //     existingPath.replace('/guide', '/docs'),
+          //   ];
+          // }
+          // return undefined;
+        },
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
