@@ -46,6 +46,7 @@ const config = {
     [
       '@docusaurus/preset-classic',
       {
+        debug: undefined,
         docs: {
           routeBasePath: '/',
           path: 'docs',
@@ -57,11 +58,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
+
         gtag: {
           trackingID: 'G-S6RRDF6PG8',
           anonymizeIP: true,
@@ -69,6 +66,7 @@ const config = {
       },
     ],
   ],
+
 
   plugins: [
     [
