@@ -7,7 +7,8 @@ sidebar_position: 1
 
 ![ultrosonic](/img/docs/product_guide/1072_01.jpg)
 
-In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
+This is a project that uses an ultrasonic sensor with an Arduino board to measure distances and display the results on a display module. The ultrasonic sensor emits high-frequency sound waves and measures the time it takes for the waves to bounce back from an object, allowing the Arduino to calculate the distance. The end result is a device that can be used in various applications, such as robotics or DIY projects.
+  
 
 ## Parts & Materials
 
