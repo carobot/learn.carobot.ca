@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+let redirects = require('./redirects/redirects.json')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -66,17 +67,12 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html'],
-        redirects: [
-           {
-             to: '/test',
-             from: ['/test/test']
-           }
-        ],
-        createRedirects(existingPath) {
-          // if (existingPath.includes('/guide')) {
+        redirects: redirects,
+        createRedirects(path) {
+          // if (path.includes('/guide')) {
           //   return [
-          //     existingPath.replace('/guide', '/docs'),
-          //     existingPath.replace('/guide', '/docs'),
+          //     path.replace('/guide', '/docs'),
+          //     path.replace('/guide', '/docs'),
           //   ];
           // }
           // return undefined;

@@ -1,0 +1,6 @@
++---FORMAT--------------------+
+|    /OldLink , /NewLink      |
++-----------------------------+
+/test/test , /test
+/test/test , /test1
+/test/test , /test2
