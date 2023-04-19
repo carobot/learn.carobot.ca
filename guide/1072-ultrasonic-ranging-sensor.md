@@ -5,23 +5,20 @@ sidebar_position: 1
 
 # How to use a HC-SR04 Ultrasonic Sensor
 
-The HC-SR04 ultrasonic sensor module is a very popular module for measuring distance or any other purposes. It emits an ultrasound signal at about 40 000 Hz which travels through the air and if there is an object or obstacle along its path, the sound will bounce back to the module.
-
-![](/img/docs/product_guide/1072_01.jpg)
+![ultrosonic](/img/docs/product_guide/1072_01.jpg)
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
 
-## Wiring
-Most HC-SR04 modules operate at 5V and gives out digital outputs. For this project, we will be using the [HC-SR04 Ultrasonic Sensor module](https://www.canadarobotix.com/products/1072) we carry in our shop. This module consists of 4 pins:** VCC, TRIG, ECHO** and **GND**. Both the TRIG and ECHO pins can be connected to any Digital output pins on an Arduino Board. 
+## Parts & Materials
 
-## Parts
 * [HC-SR04 Ultrasonic Sensor](https://www.canadarobotix.com/products/1072)
 * [Arduino Uno R3](https://www.canadarobotix.com/products/60)
 * [BreadBoard](https://www.canadarobotix.com/products/223)
 * [Jumper wires](https://www.canadarobotix.com/products/922)
 * [Arduino IDE](https://www.arduino.cc/en/software)
 
-## Wiring Guide 
+## Circuit Diagram & Wiring
+
 Insert the HC-SR04 module onto a breadboard and connect the pins with male to male jumper wires 
 
 ![](/img/docs/product_guide/1072_01.png)
@@ -34,7 +31,40 @@ Insert the HC-SR04 module onto a breadboard and connect the pins with male to ma
 ![](/img/docs/product_guide/1072_02.png)
 ![](/img/docs/product_guide/1072_03.png)
 
-## Programming
+
+## Full Code
+
+```c
+#define echo 2 
+#define trig 3
+
+long duration; 
+int distance; 
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(trig, OUTPUT);
+  pinMode(echo, INPUT);
+}
+
+void loop(){
+  digitalWrite(trig, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(trig, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trig, LOW);
+
+  duration = pulseIn(echo, HIGH);
+  distance = duration * 0.034 /2;
+
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+}
+```
+## Programming & Logic
+
 The following code demonstrates how the ultrasonic sensor works and measure the distance if an object or obstacle is in front of it. If you want to skip the steps, you can jump to the Full Code. 
 
 **Step 1:** Define connection pins
@@ -102,40 +132,43 @@ To get the distance in centimetre, we need to use the math formula, Time = Dista
 }
 ```
 
-## Full Code
+## Troubleshooting:
 
-```c
-#define echo 2 
-#define trig 3
+* Check your wiring: Make sure that all the wires are properly connected and in the right place. Double-check that the VCC pin is connected to the 5V pin on the Arduino and the GND pin to the GND pin on the Arduino.
 
-long duration; 
-int distance; 
+* Check your code: Make sure your code is properly written and uploaded to your Arduino board. Check the pin numbers, data types, and variables.
 
-void setup(){
-  Serial.begin(9600);
-  pinMode(trig, OUTPUT);
-  pinMode(echo, INPUT);
-}
+* Check your power supply: Make sure that the Arduino and the ultrasonic sensor are receiving sufficient power. Use a voltmeter to test the voltage at the power supply and at the Arduino pins.
 
-void loop(){
-  digitalWrite(trig, LOW);
-  delayMicroseconds(2);
+* Check your distance: Make sure that the object you are trying to detect with the ultrasonic sensor is within the detection range of the sensor. Move the object closer to the sensor to see if it detects it.
 
-  digitalWrite(trig, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trig, LOW);
+* Check for interference: Check if there are any other electronic devices in the vicinity that might interfere with the signal from the ultrasonic sensor. Move the sensor to a different location to test if this improves the performance.
 
-  duration = pulseIn(echo, HIGH);
-  distance = duration * 0.034 /2;
+* Check for damaged components: Inspect the components on your Arduino board and the ultrasonic sensor for any visible signs of damage or wear. If you see any damage, replace the damaged components.
 
-  Serial.print("Distance: ");
-  Serial.print(distance);
-  Serial.println(" cm");
-}
-```
+* Check your serial monitor: Use the serial monitor to check if the sensor is outputting data. This can help you identify if the problem is with the sensor, the wiring, or the code.
+
 
 ## Output
+
 Serial Monitor will display the distance from the sensor to the object. In this example, I moved my hand forward and backwards to test the distance measurements.
 
 ![](/img/docs/product_guide/1072_01.gif)
 ![](/img/docs/product_guide/1072_04.png)
+
+## Possible applications:
+
+* Smart Home: Use an ultrasonic sensor to turn on lights automatically when someone enters a room.
+
+* Pet feeder: Use an ultrasonic sensor to dispense food when your pet is near their bowl.
+
+* Watering system: Use an ultrasonic sensor to water plants automatically based on soil moisture level.
+
+* Intruder alert: Use an ultrasonic sensor to trigger an alarm or alert when someone approaches your home.
+
+* Garage parking assistant: Use an ultrasonic sensor to sound an alarm when you're too close to the garage wall.
+
+
+
+## Conclusion
+To conclude, ultrasonic sensors are versatile and useful tools, but it's important to understand how they work, wire them properly, and program them correctly when using them with an Arduino. Keep in mind their limitations and troubleshoot for common issues like wiring, code, power supply, distance, interference, and component damage to achieve accurate and reliable results. And don't forget to have fun!
