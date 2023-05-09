@@ -1,14 +1,14 @@
 [
 	{
-		"from": "/test/test",
-		"to": "/test"
+		"from": "/test",
+		"to": "/test/test"
 	},
 	{
-		"from": "/test/test",
-		"to": "/test1"
+		"from": "/test2",
+		"to": "/test/test"
 	},
 	{
-		"from": "/test/test",
-		"to": "/test2"
+		"from": "/test3",
+		"to": "/test/test"
 	}
 ]
