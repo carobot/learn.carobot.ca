@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Introduction
 This tutorial will show you how to use a 1.3 inch I²C  OLED display with Arduino.
-<img src="/img/docs/product_guide/IMG_9999.jpg" width="50%" height="50%" />
+<img src="/img/docs/product_guide/6666.jpg" width="50%" height="50%" />
 
 ## Materials
 
@@ -20,7 +20,7 @@ This tutorial will show you how to use a 1.3 inch I²C  OLED display with Arduin
 
 Connect the OLED display to the Arduino board as shown in the picture below:
 
-<img src="/img/docs/product_guide/6666.jpg" width="50%" height="50%" />
+<img src="/img/docs/product_guide/4444.jpg" width="50%" height="50%" />
 
 **Step 1: Connect the OLED panel to your Arduino board using the I2C pins.**
 
