@@ -104,7 +104,7 @@ These lines are part of the setup function. The first line initializes the OLED 
 void loop() {}
 ```
 **Step 4:**   Loop: 
-This is an empty loop function that does nothing.
+This is an empty loop function that does nothing. You can add actions that you want to be repeated here, for example switching text.
 
 ## Troubleshooting:
 
