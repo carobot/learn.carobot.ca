@@ -2,9 +2,9 @@
 
 In this tutorial, we will guide you through the process of building a robot that moves around and displays real-time temperature on a screen. By following the step-by-step instructions, you will learn how to assemble the necessary components, wire them together, and program the robot using Arduino IDE. Let's get started!
 
-<img src="/img/docs/product_guide/robot.gif" width="" height="100%" />
+<img src="img\docs\robot-temperature-0001.gif" width="" height="100%" />
 
-<img src="/img/docs/product_guide/robot8.jpg" width="53.3%" height="100%" />
+<img src="img\docs\robot-temperature-0009.jpg" width="50.51%" height="100%" />
 
 ## Materials
 To build this robot, you will need the following components:
@@ -79,7 +79,7 @@ The second DC motor is connected to the motor driver using the following configu
 
 ### 1. Powering the ESP-WROOM-32:
 
-<img src="/img/docs/product_guide/robot6.jpg" width="50%" height="50%" />
+<img src="img\docs\robot-temperature-0007.jpg" width="50%" height="50%" />
 
 * Identify the VIN pin on the ESP-WROOM-32 module.
 
@@ -89,7 +89,7 @@ The second DC motor is connected to the motor driver using the following configu
 
 ### 2. Connect the motors to the L293D motor controller
 
-<img src="/img/docs/product_guide/robot4.jpg" width="30%" height="10%" />
+<img src="img\docs\robot-temperature-0005.jpg" width="30%" height="10%" />
 
 ** Note: you only need 1 ESP-wroom 32, this is to show how its wired. **
 
@@ -101,7 +101,7 @@ The second DC motor is connected to the motor driver using the following configu
 
 ### 3. Connecting the AM2320 temperature sensor and 0.96 Inch I2C OLED :
 
-<img src="/img/docs/product_guide/robot3.jpg" width="30%" height="10%" />
+<img src="img\docs\robot-temperature-0004.jpg" width="30%" height="10%" />
 
 Connect the VCC, GND, SDA, and SCL pins of the OLED module/Temp senosr to the corresponding pins on the ESP-WROOM-32.
 * VCC to 3.3V power supply pin
@@ -111,7 +111,7 @@ Connect the VCC, GND, SDA, and SCL pins of the OLED module/Temp senosr to the co
 
 
 ### 4. Attach the wheels to the motor shafts:
-<img src="/img/docs/product_guide/robot5.jpg" width="50%" height="50%" />
+<img src="img\docs\robot-temperature-0006.jpg" width="50%" height="50%" />
 
 *  Identify the motor shafts of Motors 1 and 2.
 
@@ -119,7 +119,7 @@ Connect the VCC, GND, SDA, and SCL pins of the OLED module/Temp senosr to the co
 
 ### 5. Put everything together: 
 
-<img src="/img/docs/product_guide/robot7.jpg" width="50%" height="50%" />
+<img src="img\docs\robot-temperature-0008.jpg" width="50%" height="50%" />
 
 * Place battery in the housing between the 2 brackets
 * Place the ciruit on top 
@@ -341,9 +341,9 @@ int motor2Pin2 = 15;
 Once the code is uploaded to the ESP WROOM 32, the robot will start moving around. The OLED display will show the real-time temperature readings from the AM2320 sensor.
 
 
-<img src="/img/docs/product_guide/robot1.jpg" width="30%" height="30%" />
+<img src="img\docs\robot-temperature-0002.jpg" width="30%" height="30%" />
 
-<img src="/img/docs/product_guide/robot.gif" width="22%" height="10%" />
+<img src="img\docs\robot-temperature-0001.gif" width="22%" height="10%" />
 
 ## Conclusion
 Congratulations on successfully building a robot that moves and displays real-time temperature! You have learned how to wire the components, program the ESP WROOM 32 using Arduino IDE, and troubleshoot any potential issues. Feel free to further enhance your robot by adding WiFi or Bluetooth control or exploring additional sensors and functionalities. Have fun experimenting and exploring the world of robotics!

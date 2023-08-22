@@ -5,11 +5,6 @@ sidebar_position: 1
 
 # How to use a HC-SR04 Ultrasonic Sensor
 
-<<<<<<< Updated upstream
-The HC-SR04 ultrasonic sensor module is a very popular module for measuring distance or any other purposes. It emits an ultrasound signal at about 40 000 Hz which travels through the air and if there is an object or obstacle along its path, the sound will bounce back to the module.
-
-![](/img/docs/product_guide/1072_01.jpg)
-=======
 
 ## Introduction
 This is a project that uses an ultrasonic sensor with an Arduino board to measure distances and display the results on a display module. The ultrasonic sensor emits high-frequency sound waves and measures the time it takes for the waves to bounce back from an object, allowing the Arduino to calculate the distance. The end result is a device that can be used in various applications, such as robotics or DIY projects.
@@ -17,7 +12,6 @@ This is a project that uses an ultrasonic sensor with an Arduino board to measur
 ![](/img/docs/product_guide/1072_01.gif)
 
   
->>>>>>> Stashed changes
 
 In this article, we will talk about how to wire and set up the module for operation with an Arduino Board.  
 
@@ -37,9 +31,6 @@ Insert the HC-SR04 module onto a breadboard and connect the pins with male to ma
 
 ![](/img/docs/product_guide/1072_03.png)
 
-<<<<<<< Updated upstream
-## Programming
-=======
 
 | HC-SR04 Pin | Arduino Pin |
 | --- | --- |
@@ -82,7 +73,7 @@ void loop(){
 ```
 ## Programming & Logic
 
->>>>>>> Stashed changes
+
 The following code demonstrates how the ultrasonic sensor works and measure the distance if an object or obstacle is in front of it. If you want to skip the steps, you can jump to the Full Code. 
 
 **Step 1:** **   Define connection pins  **
@@ -152,7 +143,6 @@ To get the distance in centimetre, we need to use the math formula, Time = Dista
 
 ## Full Code
 
-<<<<<<< Updated upstream
 ```c
 #define echo 2 
 #define trig 3
@@ -182,29 +172,11 @@ void loop(){
   Serial.println(" cm");
 }
 ```
-=======
-* **   Check your wiring:  ** Ensure all wires are properly connected and in the right place.
-
-* **   Check your serial monitor:  **  Use it to check if the sensor is outputting data.
-
-* **   Check your code:  ** Ensure it is properly written and uploaded to your Arduino board.
-
-* **   Check your distance:  ** Ensure the object is within the detection range of the sensor.
-
-* **   Check your power supply:  ** Ensure the Arduino and sensor are receiving sufficient power.
-
-* **   Check for interference:  ** Check for other electronic devices that might interfere with the signal.
-
-* **   Check for damaged components:  ** Inspect components for any visible signs of damage or wear.
->>>>>>> Stashed changes
 
 ## Output
 Serial Monitor will display the distance from the sensor to the object. In this example, I moved my hand forward and backwards to test the distance measurements.
 
 ![](/img/docs/product_guide/1072_01.gif)
-<<<<<<< Updated upstream
-![](/img/docs/product_guide/1072_04.png)
-=======
 ![](/img/docs/product_guide/1072_04.png)
 
 ## Possible applications:
@@ -223,4 +195,3 @@ Serial Monitor will display the distance from the sensor to the object. In this 
 
 ## Conclusion
 To conclude, ultrasonic sensors are versatile and useful tools, but it's important to understand how they work, wire them properly, and program them correctly when using them with an Arduino. Keep in mind their limitations and troubleshoot for common issues like wiring, code, power supply, distance, interference, and component damage to achieve accurate and reliable results. And don't forget to have fun!
->>>>>>> Stashed changes
