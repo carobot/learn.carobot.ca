@@ -77,7 +77,7 @@ MCUFRIEND_kbv tft(LCD_CS, LCD_CD, LCD_WR, LCD_RD, LCD_RESET);
 
 ```c
 tft.reset(); //resets the hardware
-tft.begin(0x9481); //starts up the screen
+tft.begin(0x9486); //starts up the screen for ILI9486 IC
 tft.setRotation(1); //sets the rotation of the screen
 //The screen is now fully setup
 ```
