@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Let’s start with a small and fun exercise to introduce ourselves to C programming and Arduino. **Follow the diagram below to assemble your circuit.**
 
-![](/img/docs/product_guide/guide1_01.png)
+![](/img/docs/intro-to-C/guide1_01.png)
 
 Once the circuit is assembled, copy the code below into the sketch. Then compile the sketch, click the “✔“, and upload, click the “→” at the top right corner.
 
@@ -64,7 +64,7 @@ A data item whose value **can** be changed throughout the program.
 * The value of a variable can be changed at any time by typing the variable again.
 * Assigning a name to a variable makes it easier to read and track the memory location of data.
 
-![](/img/docs/product_guide/guide1_02.png)
+![](/img/docs/intro-to-C/guide1_02.png)
 
 
 # Rules for naming variables:
@@ -73,13 +73,13 @@ A data item whose value **can** be changed throughout the program.
 2. The **first character** of your variable should be a letter or an underscore. Try not to start with an underscore as some c built-in variables start with an underscore. 
 3. The variable name should typically be **between 1-31 characters**
 
-![](/img/docs/product_guide/guide1_03.png)
+![](/img/docs/intro-to-C/guide1_03.png)
 
 
 These are examples of some words that ***cannot*** be used as variable names as they are special words used in C programming.
 
-![](/img/docs/product_guide/guide1_04.png)
-![](/img/docs/product_guide/guide1_05.png)
+![](/img/docs/intro-to-C/guide1_04.png)
+![](/img/docs/intro-to-C/guide1_05.png)
 
 
 ##  Declaring a Variable

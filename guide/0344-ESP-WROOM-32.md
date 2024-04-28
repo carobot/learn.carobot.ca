@@ -9,8 +9,7 @@ sidebar_position: 1
 
 The ESP-WROOM-32 is a versatile and powerful development board based on the ESP32 system-on-a-chip (SoC). It offers Wi-Fi and Bluetooth connectivity, a dual-core processor, ample I/O pins, and extensive development capabilities. This tutorial will guide you through the process of setting up and programming the ESP-WROOM-32 board.
 
-
-<a href="/img/docs/product_guide/0000.jpeg"><img src="/img/docs/product_guide/0344-ESP-WROOM-32-0001.jpg" alt="Wiring Diagram" width="40%" height="100%" /></a>
+<a href="/img/docs/product_guide/0344-ESP-circuit.jpeg"><img src="/img/docs/product_guide/0344-ESP-WROOM-32-0001.jpg" alt="Wiring Diagram" width="40%" height="100%" /></a>
 
 ## Materials
 

@@ -1,10 +1,15 @@
+---
+title: Building a Robot with Real-Time Temperature Display
+sidebar_position: 1
+---
+
 # Tutorial: Building a Robot with Real-Time Temperature Display
 
 In this tutorial, we will guide you through the process of building a robot that moves around and displays real-time temperature on a screen. By following the step-by-step instructions, you will learn how to assemble the necessary components, wire them together, and program the robot using Arduino IDE. Let's get started!
 
-<img src="img\docs\robot-temperature-0001.gif" width="" height="100%" />
+<img src="img\docs\projects\robot-temperature-0001.gif" width="" height="100%" />
 
-<img src="img\docs\robot-temperature-0009.jpg" width="50.51%" height="100%" />
+<img src="img\docs\projects\robot-temperature-0009.jpg" width="50.51%" height="100%" />
 
 ## Materials
 To build this robot, you will need the following components:
@@ -23,12 +28,12 @@ Connect the components according to the following wiring diagram:
 
 <a href="/img/docs/product_guide/0000.jpeg"><img src="/img/docs/product_guide/0000.jpeg" alt="Wiring Diagram" width="80%" height="70%" /></a>
 
-Below are the pinouts for each module:
+Below are some of the pinouts:
 
-- [AM2320 Pinout](http://localhost:3000/img/docs/product_guide/AM2320.jpg)
-- [0.96' I2C OLED Pinout](http://localhost:3000/img/docs/product_guide/OLED-Pinout-I2C.jpeg)
-- [ESP32 Pinout](http://localhost:3000/img/docs/product_guide/esp.jpg)
-- [L293D Pinout](http://localhost:3000/img/docs/product_guide/L293D-Pinout.png)
+### I2C OLED Pinout
+![](/img/docs/product_guide/2609-OLED-Pinout-I2C.jpeg)
+### L293D Pinout
+![](/img/docs/product_guide/2473-L293D-Pinout.png)
 
 
 ### Step 1: Wiring Connections 

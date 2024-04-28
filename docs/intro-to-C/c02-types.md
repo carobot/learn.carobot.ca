@@ -46,7 +46,7 @@ Size specifiers are used to adjust the size of an int and double to fit in large
 * A long int contains 32 bits
 * A long long int contains 64 bits.
 
-![](/img/docs/product_guide/guide2_01.png)
+![](/img/docs/intro-to-C/guide2_01.png)
 
 ## Type Double Size Specifier
 * A long double contains typically 64 bits which is the same size as a regular double.
