@@ -94,16 +94,16 @@ const config = {
         editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'resources',
-        path: 'resources',
-        routeBasePath: 'resources',
-        sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'resources',
+    //     path: 'resources',
+    //     routeBasePath: 'resources',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //     editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
+    //   },
+    // ],
   ],
 
   themeConfig:

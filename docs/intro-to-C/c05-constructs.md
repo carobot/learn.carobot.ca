@@ -241,7 +241,7 @@ The first part of the **For Loop** is the declaration of a variable, commonly de
 #### Condition
 The second part of the **For Loop** is how many times you want the code within the loop to be repeated.
 
-|i=0|i<5|i++|
+|i=0|i{'<'}5|i++|
 |---|---|---|
 |0|✓|**0**+1 ✓|
 |1|✓|**1**+1 ✓|

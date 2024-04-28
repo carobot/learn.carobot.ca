@@ -66,14 +66,14 @@ void loop(){
 
 A relational operator verifies the relationship **between two variables**. If the statement is proven to be true then the output will be 1, if the statement is false then the output will be 0.
 
-|Operator|Meaning|Example|
-|---|---|---|
-|==|Equal to|22 == 4; false return = 0|
-|>|Greater than|22 > 4; true return = 1|
-|<|Less than|22 < 4; false return = 0|
-|!=|Not equal to|22 != 4; true return = 1|
-|>=|Greater than or equal to|22 >= 4; true return = 1|
-|<=|Less than or equal to|22 <= 4; false return = 0|
+| Operator | Meaning | Example | Outcome |
+| --- | --- | --- | --- |
+| == | Equal to | 22 == 4; | false return = 0 |
+| {'>'} | Greater than | 22 {'>'} 4; | true return = 1 |
+| {'<'} | Less than | 22 {'<'} 4; | false return = 0 |
+| != | Not equal to | 22 != 4; | true return = 1 |
+| {'>='} | Greater than or equal to | 22 {'>='} 4; | true return = 1 |
+| {'<='} | Less than or equal to | 22 {'<='} 4; | false return = 0 |
 
 ## Logical Operators
 |Operator|Meaning|Example (c=5, d=3)|
@@ -97,4 +97,4 @@ A relational operator verifies the relationship **between two variables**. If th
 1. Start by creating 3 variables with different values. (for more challenges try using three different types, int, float and double).
 2. Using *arithmetic operators* create an expression where the output will be **3**. 
 3. Then using any *relational operator* create an expression where the output will be **1**. 
-4. Use any *logical operator* to return the value of **0**.
+4. Use any *logical operator* to return the value of **0**. -->
