@@ -19,18 +19,8 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        # run: yarn install
-        # https://stackoverflow.com/questions/69984660/npm-ci-can-only-install-packages-with-an-existing-package-lock-json-or-npm-shrin
-        # https://github.com/facebook/docusaurus/issues/2846#issuecomment-691706184
+        run: yarn install
         # run: yarn install --frozen-lockfile
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
       - name: Build website
         run: yarn build
 
