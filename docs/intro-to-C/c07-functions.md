@@ -60,7 +60,7 @@ void flash(int numFlash){
 }
 ```
 ****Note:**** You can have a function with multiple varibles in the parameter. 
-* EX: void apple(int quantity, String name, double weight){...}
+* EX: void apple(int quantity, String name, double weight)
 
 
 **Call a Function WITH Parameter**

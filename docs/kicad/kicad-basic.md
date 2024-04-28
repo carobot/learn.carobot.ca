@@ -6,8 +6,8 @@ sidebar_position: 2
  
 ## Installation
  
-Download and install KiCAD from <https://www.kicad.org/>
- 
+Download and install KiCAD from [https://www.kicad.org](https://www.kicad.org).
+
 ## Schematic
  
 Open KiCAD and start a new project. Once the project is created, open the schematic of the project. Here is where you’ll draw the electronics schematic for your project.

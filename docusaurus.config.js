@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+let redirects = require('./redirects/redirects.json')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -46,6 +47,7 @@ const config = {
     [
       '@docusaurus/preset-classic',
       {
+        debug: undefined,
         docs: {
           routeBasePath: '/',
           path: 'docs',
@@ -57,11 +59,31 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-S6RRDF6PG8',
+          anonymizeIP: true,
+        },
       },
     ],
   ],
 
   plugins: [
+    [ //ONLY FUNCTIONING UPON PRODUCTION
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        redirects: redirects,
+        createRedirects(path) {
+          // if (path.includes('/guide')) {
+          //   return [
+          //     path.replace('/guide', '/docs'),
+          //     path.replace('/guide', '/docs'),
+          //   ];
+          // }
+          // return undefined;
+        },
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -70,23 +92,23 @@ const config = {
         routeBasePath: 'guide',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-      }, 
+      },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'resources',
-        path: 'resources',
-        routeBasePath: 'resources',
-        sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-      }, 
-    ],
-],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'resources',
+    //     path: 'resources',
+    //     routeBasePath: 'resources',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //     editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
+    //   },
+    // ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({      
+    ({
       algolia: {
         appId: 'BQBI23OQ61',
         apiKey: '3b00c9db7f6cbe12d5c5d40b58f1d7e3',
@@ -108,7 +130,7 @@ const config = {
             docId: 'tutorial',
             position: 'left',
             label: 'Tutorial',
-          },          
+          },
           {
             to: '/guide/guide',    // ./docs-api/Intro.md
             label: 'Guide',
@@ -148,7 +170,7 @@ const config = {
               },
               {
                 label: 'Guide',
-                to: 'guide/guide',
+                to: '/guide/guide',
               },
             ],
           },
