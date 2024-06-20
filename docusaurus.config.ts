@@ -1,12 +1,12 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer').themes.github;;
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 let redirects = require('./redirects/redirects.json')
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
+
   title: 'Learn at CAROBOT',
   tagline: 'Learning robotics is cool! We love robotics!',
   url: 'https://learn.carobot.ca/',
@@ -19,30 +19,6 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  // presets: [
-  //   [
-  //     'classic',
-  //     /** @type {import('@docusaurus/preset-classic').Options} */
-  //     ({
-  //       docs: {
-  //         sidebarPath: require.resolve('./sidebars.js'),
-  //         // Please change this to your repo.
-  //         editUrl: 'https://github.com/carobot/carobot.github.io/tree/main/',
-  //         routeBasePath: '/',
-  //       },
-  //       blog: {
-  //         showReadingTime: true,
-  //         // Please change this to your repo.
-  //         editUrl:
-  //           'https://github.com/carobot/carobot.github.io/tree/main/',
-  //       },
-  //       theme: {
-  //         customCss: require.resolve('./src/css/custom.css'),
-  //       },
-  //     }),
-  //   ],
-  // ],
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -51,7 +27,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           path: 'docs',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.ts'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
           editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
@@ -74,13 +50,6 @@ const config = {
         fromExtensions: ['html'],
         redirects: redirects,
         createRedirects(path) {
-          // if (path.includes('/guide')) {
-          //   return [
-          //     path.replace('/guide', '/docs'),
-          //     path.replace('/guide', '/docs'),
-          //   ];
-          // }
-          // return undefined;
         },
       },
     ],
@@ -90,20 +59,10 @@ const config = {
         id: 'guide',
         path: 'guide',
         routeBasePath: 'guide',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: require.resolve('./sidebars.ts'),
         editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       },
     ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'resources',
-    //     path: 'resources',
-    //     routeBasePath: 'resources',
-    //     sidebarPath: require.resolve('./sidebars.js'),
-    //     editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
-    //   },
-    // ],
   ],
 
   themeConfig:
@@ -127,25 +86,16 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'tutorial',
+            docId: 'Tutorials',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Tutorials',
           },
           {
-            to: '/guide/guide',    // ./docs-api/Intro.md
+            to: '/guide/guide',
             label: 'Guide',
             position: 'left',
             activeBaseRegex: `/guide/`,
           },
-
-          //{
-          //  to: '/resources/ref',    // ./docs-api/Intro.md            
-          //  label: 'Resources',
-          //  position: 'left',
-          //  activeBaseRegex: `/resources/`,
-          //},
-
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://www.canadarobotix.com',
             label: 'Canada Robotix',
@@ -165,8 +115,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/tutorial',
+                label: 'Tutorials',
+                to: '/Tutorials',
               },
               {
                 label: 'Guide',
@@ -174,36 +124,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CAROBOTIX INC. In collaboration with CAROBOT Learning and Research Organization. Built with Docusaurus.`,
       },
@@ -214,4 +134,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
