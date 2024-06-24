@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Making Sounds
 Learning how to use a simple buzzer!
 

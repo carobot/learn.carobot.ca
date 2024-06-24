@@ -1,3 +1,6 @@
+---
+sidebar_position: 18
+---
 # RC522 RFID Module
 
 This module is commonly used for security in offices, attendance at schools, and has many other practical applications. You can make your own customizable security system with this module!

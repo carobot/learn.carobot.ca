@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Servo
 This tutorial will teach you the basics of using a servo motor. The servo motor can be used for a variety of purposes including robotics, aerospace, and industrial automation! Servo motorscan regulate force and control speed as well.
 

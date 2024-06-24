@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Passive Buzzer
 Learn how to make a melody using a buzzer!
 

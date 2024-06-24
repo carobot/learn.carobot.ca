@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Digital Input
 This will teach you about digital inputs using buttons and LEDs. This is really important for user input interactions, sensors, and communication!
 
