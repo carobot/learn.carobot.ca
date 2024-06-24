@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Ultrasonic Sensor
 This tutorial will teach you how to use the ultrasonic sensor. The ultrasonic sensor calculates the distance of an object based on the reflected sound waves. Ultrasonic sensors have countless applications like obstacle detection, proximity sensing, and distance measurement.
 

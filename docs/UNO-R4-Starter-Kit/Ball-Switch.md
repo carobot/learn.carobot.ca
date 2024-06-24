@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Ball Switch
 This tutorial will teach you to how to use "pull-up" to turn on an LED using a button.
 
