@@ -10,9 +10,10 @@ description
 | Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
 | Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
 | Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
+| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />                   |
+| LEDS (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="150" height="100" />                    |
 
 ## Instructions
-
 1. Make the following connections using the breadboard and jumper wires.
 #### Power Connections
 - Pin 16 of the 74HC595 to 5V.
@@ -36,6 +37,7 @@ description
 - Connect Pin 7 (Q7) to the anode of the eighth LED.
 - Connect the cathode of each LED to one end of a 220 ohm resistor.
 - Connect the other end of each resistor to the GND rail on the breadboard.
+<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500" height="480" />
 
 2. Paste the following code into your main Arduino sketch:
 ```cpp

@@ -31,6 +31,8 @@ Shift registers are versatile components that allow you to control multiple outp
 - Connect the positive legs of the LEDs to the output pins Q0 to Q7 of the 74HC595.
 - Connect the negative legs of the LEDs to ground through the current-limiting resistors.
 
+<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500" height="480" />
+
 2. Paste the following code into your main Arduino sketch:
 ```cpp
 int latchPin = 11;
