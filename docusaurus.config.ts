@@ -97,6 +97,11 @@ const config: Config = {
             activeBaseRegex: `/guide/`,
           },
           {
+            to: 'skills-ontario/',
+            position: 'left',
+            label: 'Skills Ontario',
+          },
+          {
             href: 'https://www.canadarobotix.com',
             label: 'Canada Robotix',
             position: 'right',
