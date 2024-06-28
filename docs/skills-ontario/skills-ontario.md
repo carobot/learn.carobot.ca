@@ -8,5 +8,5 @@ Please note that this guide is designed to spark your creativity and assist you 
 
 Additionally, throughout this manual, certain words and phrases are italicized. These terms are defined in the Glossary section at the end of the document.
 
-testing
+
 
