@@ -10,6 +10,7 @@ sidebar_position: 2
 [Arduino](https://www.arduino.cc) is an open source physical computing platform designed to make electronic project simple and fun. Arduino can be used as a standalone device or can be integrated with your computer to develop a bigger project.
 
 ![](/img/docs/discovery_kit/parts_arduino.png)
+[Arduino](https://www.arduino.cc/) is an open source physical computing platform designed to make electronic project simple and fun. Arduino can be used as a standalone device or can be integrated with your computer to develop a bigger project.
 
 The Arduino Uno in front of you (or on your desk) is one of several development boards based on the ATmega328. The ATmega by Atmel is the heart of the board. It has:
 - 14 digital input/output pins (6 of which can be PWM outputs)
