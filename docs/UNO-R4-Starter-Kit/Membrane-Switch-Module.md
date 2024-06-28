@@ -1,3 +1,6 @@
+---
+sidebar_position: 8
+---
 # Membrane Switch Module
 This tutorial will help you learn how to use a membrane switch module. This makes user interface a lot easier!
 

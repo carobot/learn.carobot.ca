@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+sidebar_label: RBG LED Module
+---
+
 # RBG LED Module
 
 This LED is unique and has the ability to shine with all colours on the spectrum!

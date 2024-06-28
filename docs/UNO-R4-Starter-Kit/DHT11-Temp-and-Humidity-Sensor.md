@@ -1,3 +1,6 @@
+---
+sidebar_position: 9
+---
 # DHT11 Temperature and Humidity Sensor
 This tutorial will help you learn how ouse the temperature and humidity sensor. 
 
