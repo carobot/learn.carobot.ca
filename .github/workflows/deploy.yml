@@ -20,6 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+        run: yarn add docusaurus --dev
         # run: yarn install --frozen-lockfile - dependency issue, best practice?
       - name: Build website
         run: yarn build
