@@ -7,12 +7,12 @@ This will teach you about digital inputs using buttons and LEDs. This is really 
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  />|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  />|
-| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"/>|
-| Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"/>              |
-| 2 push buttons                              | <img src="/img/docs/UNO-R4-Starter-Kit/push-button.webp" width="200"  />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [LED (white, red, blue, or green)](https://www.canadarobotix.com/products/1282)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"/>|
+| [Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"/>              |
+| [2 push buttons](https://www.canadarobotix.com/products/545)                              | <img src="/img/docs/UNO-R4-Starter-Kit/push-button.webp" width="200"  />|
 
 ## Instructions
 1. Make the following connections using the jumper wires:

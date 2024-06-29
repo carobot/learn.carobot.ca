@@ -7,11 +7,11 @@ In this tutorial, we'll guide you through the process of controlling a DC motor 
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
-| 3-6V Motor with Fan Blade                   | <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.jpg" width="200" />|
-| L293D Motor Driver                          | <img src="/img/docs/UNO-R4-Starter-Kit/L293.jpg" width="200" height="200" />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [3-6V Motor with Fan Blade](https://www.canadarobotix.com/products/2207)                   | <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.jpg" width="200" />|
+| [L293D Motor Driver](https://www.canadarobotix.com/products/2473)                          | <img src="/img/docs/UNO-R4-Starter-Kit/L293.jpg" width="200" height="200" />|
 
 
 

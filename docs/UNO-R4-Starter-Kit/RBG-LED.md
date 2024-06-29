@@ -9,12 +9,12 @@ This LED is unique and has the ability to shine with all colours on the spectrum
 ## Materials
 | Component                | Image                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------|
-| Breadboard (optional)    | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>      |
-| Jumper wires             | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/>    |
-| Arduino Uno R4 Minima    | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
-| 10K Ohm resistor (optional) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"/>     |
-| 1 RGB LED                | <img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-2.jpg" width="200"/> |
-| USB-C cable              |                                                                 |
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+| [RGB LED](https://www.canadarobotix.com/products/546)                | <img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-2.jpg" width="200"/> |
+| [USB-C cable](https://www.canadarobotix.com/products/3062)              |                                                                 |
 
 ## Instructions
 

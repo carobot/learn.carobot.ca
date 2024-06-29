@@ -7,12 +7,12 @@ sidebar_position: 25
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" /> |
-| 220 Ohm Resistors                           | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" /> |
-|LED 7-Segment Display (0.56 inch 4-Digit Red)| <img src="/img/docs/UNO-R4-Starter-Kit/4-digit-display.webp" width="200" /> |
-| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+|[LED 7-Segment Display (0.56 inch 4-Digit Red)](https://www.canadarobotix.com/products/1887)| <img src="/img/docs/UNO-R4-Starter-Kit/4-digit-display.webp" width="200" /> |
+| [74HC595 Shift Register](https://www.canadarobotix.com/products/848)                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
 
 
 ## Instructions

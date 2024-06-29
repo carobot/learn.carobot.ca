@@ -7,10 +7,10 @@ This tutorial will teach you how to use the ultrasonic sensor. The ultrasonic se
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
-| HC-SRO4 Ultrasonic Sensor                   | <img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.webp" width="200"/>|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [HC-SRO4 Ultrasonic Sensor](https://www.canadarobotix.com/products/1072)                   | <img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.webp" width="200"/>|
 
 ## Instructions
 

@@ -8,10 +8,10 @@ The MAX7219 is an integrated serial input/output common-cathode display driver t
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  /> |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  /> |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  /> |
-| MAX7219 Module                              | <img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.jpg" width="200"  /> |
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [MAX7219 Module](https://www.canadarobotix.com/products/1517)                              | <img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.jpg" width="200"  /> |
 
 ## Instructions
 
