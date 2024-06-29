@@ -1,16 +1,16 @@
 ---
 sidebar_position: 16
 ---
-# DS1307 RTC Module
+# 16. DS1307 RTC Module
 An RTC module is a highly useful component in projects that require precise timekeeping. Unlike your Arduino's built-in timer, which resets every time the power is cycled, an RTC module retains the correct time and date even when powered down, thanks to its onboard battery backup.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| DS1307 RTC Module                           | <img src="/img/docs/UNO-R4-Starter-Kit/DS1307-RTC.webp" width="200" height="200" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  />|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  />|
+| DS1307 RTC Module                           | <img src="/img/docs/UNO-R4-Starter-Kit/DS1307-RTC.webp" width="200"  />|
 
 ## Instructions
 
@@ -20,11 +20,12 @@ An RTC module is a highly useful component in projects that require precise time
 - VCC to 5V
 - SDA to SDA
 - SCL to SCL
-<img src="/img/docs/UNO-R4-Starter-Kit/Ds1307.png" width="600" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/Ds1307.png" width="600" />
 
 2. Download the "RTClib" library from the Library Manager in the Arduino IDE.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 // Importing the necessary libraries
 #include <Wire.h>

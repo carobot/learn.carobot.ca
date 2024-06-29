@@ -1,16 +1,16 @@
 ---
 sidebar_position: 7
 ---
-# Ultrasonic Sensor
+# 7. Ultrasonic Sensor
 This tutorial will teach you how to use the ultrasonic sensor. The ultrasonic sensor calculates the distance of an object based on the reflected sound waves. Ultrasonic sensors have countless applications like obstacle detection, proximity sensing, and distance measurement.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />        |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />        |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />        |
-| HC-SRO4 Ultrasonic Sensor                   | <img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.webp" width="200" height="200" />                    |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| HC-SRO4 Ultrasonic Sensor                   | <img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.webp" width="200"/>|
 
 ## Instructions
 
@@ -20,9 +20,10 @@ This tutorial will teach you how to use the ultrasonic sensor. The ultrasonic se
 - Trig to pin 12
 - Echo to pin 13
 - Gnd to GND
-<img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.png" width="600" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/ultrasonic-sensor.png" width="500" />
 
 2. Create a new file in the same folder as your main Arduino sketch to contain the SR04 sensor code. Paste the following code into the new file and save it as "SR04.h":
+#### Code
 ```cpp
 #ifndef SR04_H
 #define SR04_H
@@ -58,6 +59,7 @@ private:
 #endif
 ```
 3. In your main Arduino sketch, paste the following code to include the SR04 library and create an instance of the SR04 class:
+#### Code
 ```cpp
 #include "SR04.h"
 

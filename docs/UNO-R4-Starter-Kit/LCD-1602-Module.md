@@ -1,16 +1,16 @@
 ---
 sidebar_position: 19
 ---
-# LCD 1602 Module
+# 19. LCD 1602 Module
 The LCD 1602 module is a popular display device that uses a 16x2 character grid, perfect for various projects requiring a simple and efficient way to present information. Coupled with the Arduino Uno R4 Minima, this module allows you to display static and dynamic content, such as sensor readings, time, and interactive messages.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| LCD 1602 Module                       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.png" width="200" height="200" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" /> |
+| LCD 1602 Module                             | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.png" width="200"  />|
 
 ## Instructions
 
@@ -25,9 +25,10 @@ The LCD 1602 module is a popular display device that uses a 16x2 character grid,
 - GND to GND
 - VDD to 5V
 - VO to the middle pin of a 10k potentiometer (the other two pins of the potentiometer to 5V and GND)
-<img src="/img/docs/UNO-R4-Starter-Kit/LCD1602.png" width="550" height="550" />
+<img src="/img/docs/UNO-R4-Starter-Kit/LCD1602.png" width="500" />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include <LiquidCrystal.h>
 

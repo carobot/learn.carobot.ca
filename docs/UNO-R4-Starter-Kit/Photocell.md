@@ -1,19 +1,19 @@
 ---
 sidebar_position: 23
 ---
-# Photocell
+# 23. Photocell
 Photocells, also known as photoresistors or light-dependent resistors (LDRs), are simple yet powerful components that can detect changes in light intensity. These components are commonly used in various applications such as automatic lighting systems, light-sensitive alarms, and other projects where light detection is essential.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Photocell                       | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="190" height="150" />               |
-| Resistors                 | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="190" height="150" />               |
-| LEDs                       | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="190" height="150" />               |
-| 74HC595 Shift Register                       | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  /> |
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  /> |
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  /> |
+| Photocell                                   | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="200"  /> |
+| Resistors                                   | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"  /> |
+| LEDs                                        | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" />|
+| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
 
 
 ## Instructions
@@ -30,9 +30,10 @@ Photocells, also known as photoresistors or light-dependent resistors (LDRs), ar
 Connect VCC of the 74HC595 to a 5V power source.
 Connect GND of the 74HC595 to the Arduino's GND.
 
-<img src="/img/docs/UNO-R4-Starter-Kit/photocell.png" width="600" height="500" />
+<img src="/img/docs/UNO-R4-Starter-Kit/photocell.png" width="600"  />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int lightPin = A0;
 int latchPin = 11;

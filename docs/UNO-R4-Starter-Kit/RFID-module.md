@@ -1,17 +1,17 @@
 ---
 sidebar_position: 18
 ---
-# RC522 RFID Module
+# 18. RC522 RFID Module
 
 This module is commonly used for security in offices, attendance at schools, and has many other practical applications. You can make your own customizable security system with this module!
 
 ## Materials
-| Component           | Image                                                                                      |
-|---------------------|--------------------------------------------------------------------------------------------|
-| Breadboard          | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires        | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />          |
-| Arduino Minima R4   | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />|
-| RC522 RFID Module   | <img src="/img/docs/UNO-R4-Starter-Kit/RFID-module/RFID-2.jpg" width="300" height="300" />|
+| Component           |Image                                                                          |
+|---------------------|-------------------------------------------------------------------------------|
+| Breadboard          | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  />       |
+| Jumper wires        | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />     |
+| Arduino Minima R4   | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190"  />|
+| RC522 RFID Module   | <img src="/img/docs/UNO-R4-Starter-Kit/RFID-module/RFID-2.jpg" width="300"  />|
 
 ## Instructions
 
@@ -30,7 +30,7 @@ This module is commonly used for security in offices, attendance at schools, and
 <img src="/img/docs/UNO-R4-Starter-Kit/RFID-module/RFID_3.png" width="570" height="290" />
 
 2. Paste the following code in your Arduino IDE. Use this code as a basis for future personal projects using the RFID module.
-
+#### Code
 ```cpp
 #include <SPI.h>
 #include <MFRC522.h>

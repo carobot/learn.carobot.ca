@@ -1,16 +1,16 @@
 ---
 sidebar_position: 17
 ---
-# Sound Sensor
+# 17. Sound Sensor
 Sound sensors are versatile components that can detect and respond to sound levels in their environment. They are widely used in applications such as sound-activated lights, security systems, and voice-activated devices.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Sound Sensor                                | <img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.webp" width="190" height="150" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/>|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
+| Sound Sensor                                | <img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.webp" width="200"/>|
 
 ## Instructions
 
@@ -21,9 +21,10 @@ Sound sensors are versatile components that can detect and respond to sound leve
 - \+ to 5V
 - G to GND
 - A0 to A0
-<img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.png" width="500" height="250" />
+<img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.png" width="500"/>
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int  sensorAnalogPin = A0;    // Select the Arduino input pin to accept the Sound Sensor's analog output 
 int  sensorDigitalPin = 3;    // Select the Arduino input pin to accept the Sound Sensor's digital output

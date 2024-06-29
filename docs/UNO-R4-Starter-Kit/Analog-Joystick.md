@@ -1,16 +1,16 @@
 ---
 sidebar_position: 10
 ---
-# Analog Joystick
+# 10. Analog Joystick
 Analog joysticks are versatile input devices commonly used in game controllers, robotics, and various DIY projects. They provide a simple and intuitive way to control the movement or direction of objects and can be easily interfaced with Arduino boards.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Joystick Module                      | <img src="/img/docs/UNO-R4-Starter-Kit/joystick.webp" width="200" height="200" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| Joystick Module                             | <img src="/img/docs/UNO-R4-Starter-Kit/joystick.webp" width="200" />|
 
 ## Instructions
 
@@ -22,9 +22,10 @@ Analog joysticks are versatile input devices commonly used in game controllers, 
 - VRx to A0
 - VRy to A1
 - SW to pin 2
-<img src="/img/docs/UNO-R4-Starter-Kit/joystick-module.png" width="550" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/joystick-module.png" width="500" />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 // Arduino pin numbers
 const int SW_pin = 2;   // digital pin connected to switch output

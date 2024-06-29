@@ -2,18 +2,18 @@
 sidebar_position: 22
 ---
 
-# The Serial Monitor
+# 22. The Serial Monitor
 Shift registers are versatile components that allow you to control multiple outputs using only a few pins from your microcontroller. This is particularly useful when you need to control many LEDs but have limited I/O pins available on your Arduino.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />                   |
-| 220 Ohm Resistors                           | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="150" height="150" />                   |
-| LEDS (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="150" height="100" />                    |
+| Component                       | Image                                                                     |
+|---------------------------------|---------------------------------------------------------------------------|
+| Breadboard                      | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />    |
+| Jumper wires                    | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  /> |
+| Arduino Uno R4 Minima          |<img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
+| 74HC595 Shift Register          | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png"width="200" />         |
+| 220 Ohm Resistors               | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="2-0" />     |
+| LEDS (white, red, blue, or green)| <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"  />          |
 
 ## Instructions
 
@@ -31,9 +31,10 @@ Shift registers are versatile components that allow you to control multiple outp
 - Connect the positive legs of the LEDs to the output pins Q0 to Q7 of the 74HC595.
 - Connect the negative legs of the LEDs to ground through the current-limiting resistors.
 
-<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500" height="480" />
+<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500"/>
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int latchPin = 11;
 int clockPin = 9;
