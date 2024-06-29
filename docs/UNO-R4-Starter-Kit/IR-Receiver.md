@@ -1,17 +1,17 @@
 ---
 sidebar_position: 11
 ---
-# IR Receiver Module
+# 11. IR Receiver Module
 The KY-022 IR receiver module is a small, affordable sensor that can detect and demodulate infrared signals from a remote control. It operates at a frequency of 38 kHz, which is a standard frequency for most consumer IR remotes. The module consists of a photodiode, an amplifier, and a demodulator circuit, all housed in a single package.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| KY022 IR Receiver Module + Remote           |  <img src="/img/docs/UNO-R4-Starter-Kit/KY022.jpeg" width="190" height="190" />               |
-| IR Remote Control                           |  <img src="/img/docs/UNO-R4-Starter-Kit/ir-remote-control.jpg" width="190" height="190" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| KY022 IR Receiver Module + Remote           |  <img src="/img/docs/UNO-R4-Starter-Kit/KY022.jpeg" width="200"  />|
+| IR Remote Control                           |  <img src="/img/docs/UNO-R4-Starter-Kit/ir-remote-control.jpg" width="200"  />|
 
 ## Instructions
 
@@ -20,11 +20,12 @@ The KY-022 IR receiver module is a small, affordable sensor that can detect and 
 - Signal to pin 11
 - Vcc to 5V
 - GND to GND
-<img src="/img/docs/UNO-R4-Starter-Kit/KY022.png" width="520" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/KY022.png" width="500" />
 
 2. Download the "IRremote" library from the library manager in the arduino IDE.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include <IRremote.hpp>
 // Set your receiving module to the corresponding Arduino pin

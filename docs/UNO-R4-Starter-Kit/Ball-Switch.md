@@ -1,18 +1,18 @@
 ---
 sidebar_position: 5
 ---
-# Ball Switch
+# 5. Ball Switch
 This tutorial will teach you to how to use "pull-up" to turn on an LED using a button.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="150" height="100" />                    |
-| Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="190" height="150" />              |
-| Tilt Sensor (ball switch)                   | <img src="/img/docs/UNO-R4-Starter-Kit/ball-switch.webp" width="190" height="150" />            |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/> |
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" />|
+| Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+| Tilt Sensor (ball switch)                   | <img src="/img/docs/UNO-R4-Starter-Kit/ball-switch.webp" width="200"  />|
 
 ## Instructions
 1. Make the following connections using the breadboard and jumper wires:
@@ -21,9 +21,10 @@ This tutorial will teach you to how to use "pull-up" to turn on an LED using a b
 Use male to female jumper wires for the following connections.
 - One leg of the ball switch to pin 2
 - The other leg of the ball switch to GND
-<img src="/img/docs/UNO-R4-Starter-Kit/Ball-Switch.png" width="330" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/Ball-Switch.png" width="500" />
 
 2. Paste the following code into the Arduino IDE.
+#### Code
 ```cpp
 const int ledPin = 13; // the LED attached to pin 13
 const int switchPin = 2; // the ball switch attached to pin 2

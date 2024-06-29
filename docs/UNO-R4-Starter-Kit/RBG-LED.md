@@ -1,22 +1,20 @@
 ---
 sidebar_position: 1
-sidebar_label: RBG LED Module
 ---
 
-# RBG LED Module
+# 1. RBG LED Module
 
 This LED is unique and has the ability to shine with all colours on the spectrum!
 
 ## Materials
 | Component                | Image                                                                                      |
-|--------------------------|--------------------------------------------------------------------------------------------|
-| Breadboard (optional)    | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />        |
-| Jumper wires             | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />      |
-| Arduino Uno R4 Minima    | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" /> |
-| 10K Ohm resistor (optional) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="190" height="150" />      |
-| 1 RGB LED                | <img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-2.jpg" width="150" height="150" /> |
-| USB-C cable              |                                                                                            |
-
+|--------------------------|---------------------------------------------------------------------------------------------|
+| Breadboard (optional)    | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>      |
+| Jumper wires             | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/>    |
+| Arduino Uno R4 Minima    | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
+| 10K Ohm resistor (optional) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"/>     |
+| 1 RGB LED                | <img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-2.jpg" width="200"/> |
+| USB-C cable              |                                                                 |
 
 ## Instructions
 
@@ -27,10 +25,11 @@ This LED is unique and has the ability to shine with all colours on the spectrum
 - Ground to GND
 - Green to pin 5
 - Blue to pin 3
-<img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-3.png" width="300" height="400" />
+<img src="/img/docs/UNO-R4-Starter-Kit/RGB-LED/RGB-LED-3.png" width="500" />
 - 10K Ohm Resistor between ground and RGB LED (this is optional and is recommended if you intend to leave the LED on for extended periods of time. This reduces the chance of frying your LED module due to increased resistance)
 
 2. Copy the following code into the Arduino IDE.
+#### Code
 ```cpp
 // Define Pins
 #define BLUE 3

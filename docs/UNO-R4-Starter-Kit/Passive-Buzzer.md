@@ -1,30 +1,28 @@
 ---
 sidebar_position: 4
 ---
-# Passive Buzzer
+# 4. Passive Buzzer
 Learn how to make a melody using a buzzer!
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Buzzer                                      | <img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/buzzer.webp" width="150" height="150" /> |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  /> |
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" /> |
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  /> |
+| Buzzer                                      | <img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/buzzer.webp" width="200" /> |
 
 ## Instructions
 
 1. Place the buzzer in the middle of the breadboard.
 
 2. Connect the negative terminal of the buzzer to ground and the positive terminal to pin 8.
-<img src="/img/docs/UNO-R4-Starter-Kit/Passive-Buzzer.png" width="250" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/Passive-Buzzer.png" width="500" />
 
 3. Upload the following code into you Arduino IDE.
-
+#### Code
 ```cpp
 #include "pitches.h"
-
-
 int melody[] = {
   NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6
 };

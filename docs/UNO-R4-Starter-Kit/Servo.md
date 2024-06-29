@@ -1,17 +1,17 @@
 ---
 sidebar_position: 6
 ---
-# Servo
+# 6. Servo
 This tutorial will teach you the basics of using a servo motor. The servo motor can be used for a variety of purposes including robotics, aerospace, and industrial automation! Servo motorscan regulate force and control speed as well.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />        |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />        |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />        |
-| Micro servo (180 degrees, 9g)               | <img src="/img/docs/UNO-R4-Starter-Kit/servo.webp" width="150" height="100" />                    |
-| Potentiometer (10k)                         | <img src="/img/docs/UNO-R4-Starter-Kit/potentiometer.jpeg" width="200" height="150" />                    |
+| Component                            | Image                                                                |
+|--------------------------------------|----------------------------------------------------------------------|
+| Breadboard                           | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
+| Jumper wires                         | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| Arduino Uno R4 Minima                | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  />|
+| Micro servo (180 degrees, 9g)        | <img src="/img/docs/UNO-R4-Starter-Kit/servo.webp" width="150"  />   |
+| Potentiometer (10k)                  | <img src="/img/docs/UNO-R4-Starter-Kit/potentiometer.jpeg" width="200"/>|
 
 
 ## Part 1. Basic Movements
@@ -23,10 +23,11 @@ This tutorial will teach you the basics of using a servo motor. The servo motor 
 - Black wire to GND
 - Red wire to 5V
 - Orange wire to pin 9
-<img src="/img/docs/UNO-R4-Starter-Kit/servo-diagram.png" width="400" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/servo-diagram.png" width="500"/>
 
 
 3. Upload the following code into your Arduino IDE.
+#### Code
 ```cpp
 #include <Servo.h>
 

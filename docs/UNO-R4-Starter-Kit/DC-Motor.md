@@ -1,17 +1,17 @@
 ---
 sidebar_position: 26
 ---
-# DC Motor and Relay
+# 26. DC Motor and Relay
 In this tutorial, we'll guide you through the process of controlling a DC motor using an Arduino R4 Minima and an L293D motor driver chip. DC motors are widely used in robotics and various electronic projects due to their simplicity and reliability. With the help of the L293D, a versatile H-bridge motor driver, you can easily control the direction and speed of the motor using an Arduino.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| 3-6V Motor with Fan Blade                     | <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.jpg" width="200" height="200" />                     |
-| L293D Motor Driver                            | <img src="/img/docs/UNO-R4-Starter-Kit/L293.jpg" width="200" height="200" />                     |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| 3-6V Motor with Fan Blade                   | <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.jpg" width="200" />|
+| L293D Motor Driver                          | <img src="/img/docs/UNO-R4-Starter-Kit/L293.jpg" width="200" height="200" />|
 
 
 
@@ -33,10 +33,10 @@ In this tutorial, we'll guide you through the process of controlling a DC motor 
 #### Motor Connections:
 - Connect one terminal of the motor to L293D Pin 3 (OUTPUT1).
 - Connect the other terminal of the motor to Pin 6 (OUTPUT2)
- <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.png" width="600" height="270" />                     
+ <img src="/img/docs/UNO-R4-Starter-Kit/DC-Motor.png" width="600" />                     
 
 2. Paste the following code into your main Arduino sketch:
-
+#### Code
 ```cpp
 #define ENABLE 5
 #define DIRA 3

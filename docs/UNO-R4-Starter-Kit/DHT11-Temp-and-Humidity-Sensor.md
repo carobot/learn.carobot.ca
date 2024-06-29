@@ -1,16 +1,16 @@
 ---
 sidebar_position: 9
 ---
-# DHT11 Temperature and Humidity Sensor
+# 9. DHT11 Temperature and Humidity Sensor
 This tutorial will help you learn how ouse the temperature and humidity sensor. 
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />        |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />        |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />        |
-| DHT11 Temperature and Humidity Sensor       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="200" height="200" />                    |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  />|
+| DHT11 Temperature and Humidity Sensor       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="200" />|
 
 ## Instructions
 
@@ -19,16 +19,16 @@ This tutorial will help you learn how ouse the temperature and humidity sensor.
 - Vcc to 5V
 - Signal to pin 2
 - Gnd to GND
-<img src="/img/docs/UNO-R4-Starter-Kit/DHT11.png" width="400" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/DHT11.png" width="500" />
 
 2. Download the DHT sensor library by Adafruit on the Arduino library manager.
 
 3. Make sure that the DHT.h file is within the same directory as you main Arduino sketch.
 
 4. In your main Arduino sketch, paste the following code:
+#### Code
 ```cpp
 #include <DHT.h>
-
 #define DHT_SENSOR_PIN 2
 #define DHT_SENSOR_TYPE DHT11
 

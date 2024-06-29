@@ -1,16 +1,16 @@
 ---
 sidebar_position: 8
 ---
-# Membrane Switch Module
+# 8. Membrane Switch Module
 This tutorial will help you learn how to use a membrane switch module. This makes user interface a lot easier!
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />        |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />        |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />        |
-| Membrane Switch Module                   | <img src="/img/docs/UNO-R4-Starter-Kit/membrane-switch.webp" width="200" height="200" />                    |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  /> |
+| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  /> |
+| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" /> |
+| Membrane Switch Module                      | <img src="/img/docs/UNO-R4-Starter-Kit/membrane-switch.webp" width="200"  /> |
 
 ## Instructions
 
@@ -25,9 +25,10 @@ This tutorial will help you learn how to use a membrane switch module. This make
 - Terminal 6 to pin 7
 - Terminal 7 to pin 8
 - Terminal 8 to pin 9
- <img src="/img/docs/UNO-R4-Starter-Kit/membrane-switch.png" width="350" height="700" /> 
+ <img src="/img/docs/UNO-R4-Starter-Kit/membrane-switch.png" width="500" /> 
 
 2. Paste the following code into your Arduino IDE:
+#### Code
 ```cpp
 const byte ROWS = 4;
 const byte COLS = 4;
