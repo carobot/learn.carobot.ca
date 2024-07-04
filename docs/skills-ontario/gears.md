@@ -11,7 +11,7 @@ So, we will now make an attempt at understanding how the gears work and how diff
 ## What are gears?  
 A *gear* is a circular machine part with “teeth” that usually fits with another gear. When two gears are meshed with each other and one of them turns, the other one also turns (refer fig 1). 
 
-<img src="/img/docs/assembly-guide/Animated_two_spur_gears_1_2.gif" width="500" height="400" />
+<img src="/img/docs/assembly-guide/Animated_two_spur_gears_1_2.gif" width="500"/>
 [Figure 1: Two gears meshed together. By Jahobr.]
 <br></br>
 (Note that when one gear turns clockwise, the other one turns counter-clockwise. Image accessed from Wikipedia.)
@@ -23,7 +23,7 @@ This property makes them very useful as we can achieve the following:
 3. **Changing Direction:** When you reverse a car a different gear called the “reverse gear” is used that changes the rotation direction of your wheels.
 
 ## Parts of a Gear
-<img src="/img/docs/assembly-guide/parts_of_a_gear.jpeg" width="500" height="400" />
+<img src="/img/docs/assembly-guide/parts_of_a_gear.jpeg" width="500"/>
 [Figure 2: Parts of a gear. Image accessed from instructables.]
 
 1. ***Pitch circle:*** An imaginary circle that gives an idea about the size of a gear. 
@@ -35,7 +35,7 @@ This property makes them very useful as we can achieve the following:
 (Note: Two gears will mesh only if: The pitch circles of two gears are *tangent* to each other. They have the same pressure angle.)
 
 ## Types of Gears
-<img src="/img/docs/assembly-guide/types_of_gears.png" width="700" height="500" />
+<img src="/img/docs/assembly-guide/types_of_gears.png" width="700"/>
 [Figure 3:Image accessed from KHK Gears (https://khkgears.net/)]
 
 ## Gear Ratios
