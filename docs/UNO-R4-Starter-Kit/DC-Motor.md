@@ -149,3 +149,7 @@ void loop() {
 ```
 
 6. Repeat Steps 3 and 4.
+
+|Prev|Next|
+|---|---|
+|[25. Shift Registers and 4 Digit Display](Shift-Registers-and-4-Digit-Display.md)|[27. Stepper Motor](Stepper-Motor.md)|

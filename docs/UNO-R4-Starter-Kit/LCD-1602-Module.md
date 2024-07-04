@@ -54,3 +54,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Observe the text on the LCD display and the time changing!
+
+|Prev|Next|
+|---|---|
+|[18. RC522 RFID Module](RFID-Module.md)|[20. Thermometer](Thermometer.md)|

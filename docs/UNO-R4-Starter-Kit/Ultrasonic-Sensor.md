@@ -85,3 +85,7 @@ void loop() {
 4. Upload the code to your Arduino board.
 
 5. Open the Arduino IDE's serial monitor to view the distance readings from the SR04 sensor as you move objects closer or farther away from it.
+
+|Prev|Next|
+|---|---|
+|[6. Servo](Servo.md)|[8. Membrane Switch Module](Membrane-Switch-Module.md)|

@@ -62,3 +62,6 @@ void loop() {
 
 6. Test! Open the serial monitor and watch the temperature and humidity vary depending on nearby objects!
 
+|Prev|Next|
+|---|---|
+|[8. Membrane Switch Module](Membrane-Switch-Module.md)|[10. Analog Joystick](Analog-Joystick.md)|

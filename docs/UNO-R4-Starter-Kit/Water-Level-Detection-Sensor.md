@@ -50,3 +50,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Watch the serial monitor as you submerge the water level detection sensor into water.
+
+|Prev|Next|
+|---|---|
+|[14. PIR Motion Sensor](HCSR312-AM312.md)|[16. DS1307 RTC Module](DS1307-RTC-Module.md)|

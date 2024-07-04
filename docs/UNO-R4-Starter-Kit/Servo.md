@@ -128,6 +128,6 @@ void loop() {
 
 4. Watch the servo motor rotate back and forth!
 
-
-
-
+|Prev|Next|
+|---|---|
+|[5. Ball Switch](Ball-Switch.md)|[7. Ultrasonic Sensor](Ultrasonic-Sensor.md)|

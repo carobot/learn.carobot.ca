@@ -79,3 +79,7 @@ void loop() {
 3. Upload the code to your arduino and run.
 
 4. Test! Observe the serial monitor as you press buttons into the membrane keypad.
+
+|Prev|Next|
+|---|---|
+|[7. Ultrasonic Sensor](Ultrasonic-Sensor.md)|[9. DHT11 Temperature and Humidity Sensor](DHT11-Temp-and-Humidity-Sensor.md)|

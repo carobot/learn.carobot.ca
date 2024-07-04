@@ -55,3 +55,6 @@ void loop() {
 ```
 4. Upload the code and watch the buzzer sound!
 
+|Prev|Next|
+|---|---|
+|[2. Digital Input](Digital-Input.md)|[4. Passive Buzzer](Passive-Buzzer.md)|

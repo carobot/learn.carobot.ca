@@ -97,5 +97,7 @@ void loop() {
 
 4. Watch the LED change colours!
 
-
+|Prev|Next|
+|---|---|
+|[Introduction](UNO-R4-Starter-Kit.md)|[2. Digital Input](Digital-Input.md)|
 

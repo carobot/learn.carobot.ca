@@ -140,3 +140,6 @@ void loop() {
 ```
 5. Upload the code to the arduino and listen to the new melody!
 
+|Prev|Next|
+|---|---|
+|[3. Making Sounds](Making-Sounds.md)|[5. Ball Switch](Ball-Switch.md)|

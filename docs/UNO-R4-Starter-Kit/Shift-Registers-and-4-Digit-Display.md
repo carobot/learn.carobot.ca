@@ -102,3 +102,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Run the code and see if the correct numbers are displayed on the 4 digit 7 segment display.
+
+|Prev|Next|
+|---|---|
+|[24. Shift Registers and 7 Segment Display](Shift-Registers-and-Display.md)|[26. DC Motor and Relay](DC-Motor.md)|

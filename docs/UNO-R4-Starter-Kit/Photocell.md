@@ -86,3 +86,7 @@ void loop() {
 4. Test! Vary the light environment around the photocell and watch the LEDs turn on and off!
 
 5. Optional: You can calibrate the sensor by changing the threshold values in the If statements!
+
+|Prev|Next|
+|---|---|
+|[22. The Serial Monitor](Serial-Monitor.md)|[24. Shift Registers and 7 Segment Display](Shift-Registers-and-Display.md)|

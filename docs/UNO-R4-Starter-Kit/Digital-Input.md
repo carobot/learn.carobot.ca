@@ -47,3 +47,6 @@ void loop() {
 ```
 3. Test! Play around with the buttons and customize the digital inputs.
 
+|Prev|Next|
+|---|---|
+|[1. RGB LED Module](RBG-LED.md)|[3. Making Sounds](Making-Sounds.md)|

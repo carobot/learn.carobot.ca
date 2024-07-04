@@ -76,3 +76,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Observe the LEDs change sequentially.
+
+|Prev|Next|
+|---|---|
+|[20. Thermometer](Thermometer.md)|[22. The Serial Monitor](Serial-Monitor.md)|

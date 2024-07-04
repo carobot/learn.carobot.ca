@@ -122,3 +122,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Run! Observe the temperature and humidity on the display.
+
+|Prev|Next|
+|---|---|
+|[19. LCD 1602 Module](LCD-1602-Module.md)|[21. Shift Registers and LED](Shift-Registers-and-LED.md)|

@@ -73,3 +73,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test! Observe the serial monitor print out the date and time on the serial monitor.
+
+|Prev|Next|
+|---|---|
+|[15. Water Level Detection Sensor](Water-Level-Detection-Sensor.md)|[17. Sound Sensor](Sound-Sensor.md)|

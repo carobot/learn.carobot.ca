@@ -48,3 +48,7 @@ void loop() {
 3. Upload the code to the arduino and run the code.
 
 4. Test the code! Tilt the ball switch and watch the LED turn off!
+
+|Prev|Next|
+|---|---|
+|[4. Passive Buzzer](Passive-Buzzer.md)|[6. Servo](Servo.md)|

@@ -107,3 +107,7 @@ void loop() {
 5. Test the module! Open to serial monitor and scan your RFID card and keychain with the module.
 
 6. Customize! Play around with the code and personlize it to suit your own personal projects.
+
+|Prev|Next|
+|---|---|
+|[17. Sound Sensor](Sound-Sensor.md)|[19. LCD 1602 Module](LCD-1602-Module.md)|

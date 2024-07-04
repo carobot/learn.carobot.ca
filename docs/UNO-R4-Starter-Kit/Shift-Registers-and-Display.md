@@ -87,3 +87,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Check to see if the numbers bring printed onto the serial monitor are corresponding to the numbers on the hex display.
+
+|Prev|Next|
+|---|---|
+|[23. Photocell](Photocell.md)|[25. Shift Registers and 4 Digit Display](Shift-Registers-and-4-Digit-Display.md)|

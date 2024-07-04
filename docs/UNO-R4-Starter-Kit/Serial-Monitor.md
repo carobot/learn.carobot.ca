@@ -86,3 +86,7 @@ void loop()
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Very the inputs into your serial monitor and observe the light changes.
+
+|Prev|Next|
+|---|---|
+|[21. Shift Registers and LED](Shift-Registers-and-LED.md)|[23. Photocell](Photocell.md)|

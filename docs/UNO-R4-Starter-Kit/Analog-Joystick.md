@@ -55,3 +55,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Open the serial monitor and observe the print out statements as you move the joystick module.
+
+|Prev|Next|
+|---|---|
+|[9. DHT11 Temperature and Humidity Sensor](DHT11-Temp-and-Humidity-Sensor.md)|[11. IR Receiver Module](IR-Receiver.md)|

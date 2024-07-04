@@ -64,3 +64,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test! Move your gyroscope and observe the changes in print statements on your serial monitor.
+
+|Prev|Next|
+|---|---|
+|[12. MAX7219 LED Matrix](MAX7219-LED-Matrix.md)|[14. PIR Motion Sensor](HCSR312-AM312.md)|

@@ -189,3 +189,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test!
+
+|Prev|Next|
+|---|---|
+|[11. IR Receiver Module](IR-Receiver.md)|[13. GY-521 Module](GY-521-Module.md)|

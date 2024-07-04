@@ -77,3 +77,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test! Open the serial monitor and press buttons the remote. See if the correct statements are being printed out.
+
+|Prev|Next|
+|---|---|
+|[10. Analog Joystick](Analog-Joystick.md)|[12. MAX7219 LED Matrix](MAX7219-LED-Matrix.md)|

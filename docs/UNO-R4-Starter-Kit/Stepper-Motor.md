@@ -258,3 +258,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Twist the rotary encoder and press the button! Observe the stepper motors movements and the serial monitor to track the counter.
+
+|Prev|Next|
+|---|---|
+|[26. DC Motor and Relay](DC-Motor.md)|N/A|
