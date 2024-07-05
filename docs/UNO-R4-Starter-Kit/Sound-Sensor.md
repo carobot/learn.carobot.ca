@@ -67,4 +67,4 @@ void loop(){
 
 |Prev|Next|
 |---|---|
-|[16. DS1307 RTC Module](DS1307-RTC-Module.md)|[18. RC522 RFID Module](RFID-Module.md)|
+|[16. DS1307 RTC Module](DS1307-RTC-Module.md)|[18. RC522 RFID Module](RFID-module.md)|
