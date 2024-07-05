@@ -1,17 +1,17 @@
 ---
 sidebar_position: 12
 ---
-# MAX7219 LED Matrix
+# 12. MAX7219 LED Matrix
 
 The MAX7219 is an integrated serial input/output common-cathode display driver that connects your microcontroller to a 8-digit 7-segment digital LED display or a 8x8 LED matrix. It is especially useful when you need to control a large number of LEDs with minimal pin usage. In this tutorial, we will learn how to set up and use the MAX7219 LED matrix module with an Arduino.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| MAX7219 Module                               | <img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.jpg" width="190" height="150" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [MAX7219 Module](https://www.canadarobotix.com/products/1517)                              | <img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.jpg" width="200"  /> |
 
 ## Instructions
 
@@ -23,13 +23,13 @@ The MAX7219 is an integrated serial input/output common-cathode display driver t
 - DIN to pin 12
 - CS to pin 11
 - CLK to pin 10
-<img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.png" width="600" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/MAX7219-Module.png" width="600" />
 
 2. Download the LedControl library from the Library Manager in the Arduino IDE.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
-
 #include <LedControl.h>
 
 LedControl lc=LedControl(12,10,11,1);
@@ -189,3 +189,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test!
+
+|Prev|Next|
+|---|---|
+|[11. IR Receiver Module](IR-Receiver.md)|[13. GY-521 Module](GY-521-Module.md)|

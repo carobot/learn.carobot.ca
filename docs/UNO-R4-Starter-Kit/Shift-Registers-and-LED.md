@@ -1,17 +1,17 @@
 ---
 sidebar_position: 21
 ---
-# Shift Registers and LED
+# 21. Shift Registers and LED
 description
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />                   |
-| LEDS (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="150" height="100" />                    |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [74HC595 Shift Register](https://www.canadarobotix.com/products/848)                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
+| [LED (white, red, blue, or green)](https://www.canadarobotix.com/products/1282)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"/>|
 
 ## Instructions
 1. Make the following connections using the breadboard and jumper wires.
@@ -37,9 +37,10 @@ description
 - Connect Pin 7 (Q7) to the anode of the eighth LED.
 - Connect the cathode of each LED to one end of a 220 ohm resistor.
 - Connect the other end of each resistor to the GND rail on the breadboard.
-<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500" height="480" />
+<img src="/img/docs/UNO-R4-Starter-Kit/shift-registers-and-LEDs.png" width="500" />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int tDelay = 100;
 int latchPin = 11;  // (11) ST_CP [RCK] on 74HC595
@@ -75,3 +76,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Observe the LEDs change sequentially.
+
+|Prev|Next|
+|---|---|
+|[20. Thermometer](Thermometer.md)|[22. The Serial Monitor](Serial-Monitor.md)|

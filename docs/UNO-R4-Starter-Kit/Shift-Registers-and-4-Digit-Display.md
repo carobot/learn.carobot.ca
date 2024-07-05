@@ -1,18 +1,18 @@
 ---
 sidebar_position: 25
 ---
-# Shift Registers and 4 Digit Display
+# 25. Shift Registers and 4 Digit Display
 7-segment displays are a popular choice for displaying numerical information in various electronic projects due to their simplicity and ease of use. By using a shift register, we can control multiple segments with just a few pins from the Arduino, making our project more efficient and allowing us to save precious I/O pins for other tasks.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| 220 Ohm Resistors                           | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="150" height="150" />                   |
-|LED 7-Segment Display (0.56 inch 4-Digit Red)| <img src="/img/docs/UNO-R4-Starter-Kit/4-digit-display.webp" width="200" height="200" />             |
-| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />                   |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+|[LED 7-Segment Display (0.56 inch 4-Digit Red)](https://www.canadarobotix.com/products/1887)| <img src="/img/docs/UNO-R4-Starter-Kit/4-digit-display.webp" width="200" /> |
+| [74HC595 Shift Register](https://www.canadarobotix.com/products/848)                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
 
 
 ## Instructions
@@ -39,9 +39,10 @@ sidebar_position: 25
 - Digit 2: Connect to Arduino Pin 3 through a 220-ohm resistor.
 - Digit 3: Connect to Arduino Pin 4 through a 220-ohm resistor.
 - Digit 4: Connect to Arduino Pin 5 through a 220-ohm resistor.
-<img src="/img/docs/UNO-R4-Starter-Kit/4-digit.png" width="650" height="200" />
+<img src="/img/docs/UNO-R4-Starter-Kit/4-digit.png" width="500"/>
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int latch=9;  //74HC595  pin 9 STCP
 int clock=10; //74HC595  pin 10 SHCP
@@ -101,3 +102,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Run the code and see if the correct numbers are displayed on the 4 digit 7 segment display.
+
+|Prev|Next|
+|---|---|
+|[24. Shift Registers and 7 Segment Display](Shift-Registers-and-Display.md)|[26. DC Motor and Relay](DC-Motor.md)|

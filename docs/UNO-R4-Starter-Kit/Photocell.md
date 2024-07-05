@@ -1,19 +1,19 @@
 ---
 sidebar_position: 23
 ---
-# Photocell
+# 23. Photocell
 Photocells, also known as photoresistors or light-dependent resistors (LDRs), are simple yet powerful components that can detect changes in light intensity. These components are commonly used in various applications such as automatic lighting systems, light-sensitive alarms, and other projects where light detection is essential.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Photocell                       | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="190" height="150" />               |
-| Resistors                 | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="190" height="150" />               |
-| LEDs                       | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="190" height="150" />               |
-| 74HC595 Shift Register                       | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="190" height="150" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Photocell](https://www.canadarobotix.com/products/1138)                                   | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="200"  /> |
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+| [LED (white, red, blue, or green)](https://www.canadarobotix.com/products/1282)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"/>|
+| [74HC595 Shift Register](https://www.canadarobotix.com/products/848)                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
 
 
 ## Instructions
@@ -30,9 +30,10 @@ Photocells, also known as photoresistors or light-dependent resistors (LDRs), ar
 Connect VCC of the 74HC595 to a 5V power source.
 Connect GND of the 74HC595 to the Arduino's GND.
 
-<img src="/img/docs/UNO-R4-Starter-Kit/photocell.png" width="600" height="500" />
+<img src="/img/docs/UNO-R4-Starter-Kit/photocell.png" width="600"  />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 int lightPin = A0;
 int latchPin = 11;
@@ -85,3 +86,7 @@ void loop() {
 4. Test! Vary the light environment around the photocell and watch the LEDs turn on and off!
 
 5. Optional: You can calibrate the sensor by changing the threshold values in the If statements!
+
+|Prev|Next|
+|---|---|
+|[22. The Serial Monitor](Serial-Monitor.md)|[24. Shift Registers and 7 Segment Display](Shift-Registers-and-Display.md)|

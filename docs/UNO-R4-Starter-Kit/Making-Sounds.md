@@ -1,16 +1,16 @@
 ---
 sidebar_position: 3
 ---
-# Making Sounds
+# 3. Making Sounds
 Learning how to use a simple buzzer!
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Buzzer                                      | <img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/buzzer.webp" width="150" height="150" /> |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Buzzer](https://www.canadarobotix.com/products/2106)                                      | <img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/buzzer.webp" width="200"  /> |
 
 
 ## Instructions
@@ -19,9 +19,10 @@ Learning how to use a simple buzzer!
 
 2. Connect the negative terminal to the ground and the postive terminal to pin 12.
 
-<img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/wiring-diagram.png" width="250" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/Making-Sounds/wiring-diagram.png" width="400"  />
 
 3. Paste the following code into your Arduino IDE:
+#### Code
 ```cpp
 int buzzer = 12; // the pin of the active buzzer
 
@@ -54,3 +55,6 @@ void loop() {
 ```
 4. Upload the code and watch the buzzer sound!
 
+|Prev|Next|
+|---|---|
+|[2. Digital Input](Digital-Input.md)|[4. Passive Buzzer](Passive-Buzzer.md)|

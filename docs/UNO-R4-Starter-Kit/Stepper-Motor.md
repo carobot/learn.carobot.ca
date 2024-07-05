@@ -1,33 +1,34 @@
 ---
 sidebar_position: 27
 ---
-# Stepper Motor
+# 27. Stepper Motor
 Stepper motors are widely used in various applications, from robotics to 3D printers, due to their precise control over rotation. In this tutorial, we will learn how to control a 28BYJ-48 stepper motor using an Arduino R4 and the L293D motor driver.
 The 28BYJ-48 stepper motor is a popular choice among hobbyists and makers for its low cost and ease of use. However, it requires a motor driver to interface with an Arduino, as the Arduino alone cannot provide enough current to drive the motor.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| ULN2003 Stepper Motor Driver Board and 28BYJ-48 Stepper Motor       | <img src="/img/docs/UNO-R4-Starter-Kit/stepper-and-driver.jpg" width="200" height="200" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [ULN2003 Stepper Motor Driver Board and 28BYJ-48 Stepper Motor](https://www.canadarobotix.com/products/1749)       | <img src="/img/docs/UNO-R4-Starter-Kit/stepper-and-driver.jpg" width="200" />|
 
 ## Instructions
 1. Connect the four wires from the stepper motor to the OUT1, OUT2, OUT3, and OUT4 pins on the ULN2003 driver. Make the following connections using the breadboard and jumper wires.
 #### ULN2003 Driver to the Arduino:
-- `+` to 5V
-- `-` to GND
+- \+ to 5V
+- \- to GND
 - IN1 to pin 8
 - IN2 to pin 9
 - IN3 to pin 10
 - IN4 to pin 11
 
-<img src="/img/docs/UNO-R4-Starter-Kit/stepper-1.png" width="600" height="470" />
+<img src="/img/docs/UNO-R4-Starter-Kit/stepper-1.png" width="600" />
 
 2. Download the "Stepper.h" library on the Library Manager.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include <Stepper.h>
 
@@ -67,23 +68,24 @@ In this tutorial, we'll learn how to control a stepper motor using an IR remote 
 ## Materials
 In addition to everything from the previous section, you will also need:
 
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| KY022 IR Receiver Module + Remote           |  <img src="/img/docs/UNO-R4-Starter-Kit/KY022.jpeg" width="190" height="190" />               |
-| IR Remote Control                           |  <img src="/img/docs/UNO-R4-Starter-Kit/ir-remote-control.jpg" width="190" height="190" />               |
+| Component                                   | Image                                                        |
+|---------------------------------------------|--------------------------------------------------------------|
+| KY022 IR Receiver Module + Remote           |  <img src="/img/docs/UNO-R4-Starter-Kit/KY022.jpeg" width="200"/>  |
+| IR Remote Control                           |  <img src="/img/docs/UNO-R4-Starter-Kit/ir-remote-control.jpg" width="200" /> |
 
 ## Instructions
 
 1. Add the following connections to your current setup:
 #### KY022 to Arduino R4
 - S to pin 12
-- `+` to 5V
-- `-` to GND
+- \+ to 5V
+- \- to GND
 - Switch the input pins for pins 8 and 9 on the Arduino R4.
 
-<img src="/img/docs/UNO-R4-Starter-Kit/stepper-2.png" width="650" height="400" />
+<img src="/img/docs/UNO-R4-Starter-Kit/stepper-2.png" width="650" />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include "Stepper.h"
 #include "IRremote.h"
@@ -148,22 +150,23 @@ Welcome to this tutorial on controlling a 28BYJ-48 stepper motor using a ULN2003
 ## Materials
 In addition to everything from the firs section, you will also need:
 
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Rotary Encoder Module           |  <img src="/img/docs/UNO-R4-Starter-Kit/rotary-encoder.webp" width="200" height="200" />               |
+| Component                                   | Image                                                       |
+|---------------------------------------------|-------------------------------------------------------------|
+| Rotary Encoder Module                       |  <img src="/img/docs/UNO-R4-Starter-Kit/rotary-encoder.webp" width="200" /> |
 
 ## Instructions
 
 1. Add the following connections to the setup from the first section.
 #### Rotary Encoder to the Arduino
 - GND to GND
-- `+` to 5V
+- \+ to 5V
 - SW to pin 4
 - DT to pin 3
 - CLK to pin 2
-<img src="/img/docs/UNO-R4-Starter-Kit/stepper-3.png" width="700" height="370" />
+<img src="/img/docs/UNO-R4-Starter-Kit/stepper-3.png" width="700"/>
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include <ezButton.h>  // the library to use for SW pin
 #include <Stepper.h>   // the library for the stepper motor
@@ -255,3 +258,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Twist the rotary encoder and press the button! Observe the stepper motors movements and the serial monitor to track the counter.
+
+|Prev|Next|
+|---|---|
+|[26. DC Motor and Relay](DC-Motor.md)|N/A|

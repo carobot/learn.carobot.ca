@@ -1,16 +1,16 @@
 ---
 sidebar_position: 13
 ---
-# GY-521 Module
+# 13. GY-521 Module
 The GY-521 module, based on the MPU-6050 sensor, is a popular choice for motion sensing applications. This module combines a 3-axis gyroscope and a 3-axis accelerometer on a single chip, allowing for accurate motion tracking in various projects.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| GY-521 Gyroscope Module                     | <img src="/img/docs/UNO-R4-Starter-Kit/GY-521-module.jpg" width="190" height="150" />              |
+| Component                                   | Image                                                      |
+|---------------------------------------------|------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| GY-521 Gyroscope Module                     | <img src="/img/docs/UNO-R4-Starter-Kit/GY-521-module.jpg" width="200"  /> |
 
 
 ## Instructions
@@ -22,11 +22,12 @@ The GY-521 module, based on the MPU-6050 sensor, is a popular choice for motion 
 - GND to GND
 - SCL to SCL
 - SDA to SDA
-<img src="/img/docs/UNO-R4-Starter-Kit/GY-521.png" width="500" height="350" />
+<img src="/img/docs/UNO-R4-Starter-Kit/GY-521.png" width="500"  />
 
 2. Navigate to the Library Manager on the Arduino IDE and download the MPU6050 library.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 // Importing the necessary libraries
 #include <Wire.h>
@@ -63,3 +64,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Test! Move your gyroscope and observe the changes in print statements on your serial monitor.
+
+|Prev|Next|
+|---|---|
+|[12. MAX7219 LED Matrix](MAX7219-LED-Matrix.md)|[14. PIR Motion Sensor](HCSR312-AM312.md)|

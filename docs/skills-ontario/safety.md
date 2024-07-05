@@ -5,6 +5,8 @@ title: Safety Tips
 
 # Safety Tips!
 Before you dive headfirst into building your turbine and powering the world, remember to take some safety precautions. Always prioritize safety and never hesitate to ask for help when needed!
+<img src="/img/docs/gearbox-instructions/safety-first.webp" width="700"/>
+
 
 ### General Safety Guidelines
 1. **Read Instructions Carefully:** Always read and understand all instructions before starting your project.

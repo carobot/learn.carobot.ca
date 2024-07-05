@@ -1,17 +1,17 @@
 ---
 sidebar_position: 20
 ---
-# Thermometer
+# 20. Thermometer
 Whether you're new to electronics or a seasoned maker, this project is a great way to dive into the world of Arduino and sensor interfacing. By the end of this tutorial, you will have a fully functional digital thermometer that displays real-time temperature and humidity readings on an LCD screen.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| LCD 1602 Module                             | <img src="/img/docs/UNO-R4-Starter-Kit/LCD1602.webp" width="200" height="200" />                   |
-| DHT11 Temperature and Humidity Sensor       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="190" height="190" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [LCD 1602 Module](https://www.canadarobotix.com/products/1297)                             | <img src="/img/docs/UNO-R4-Starter-Kit/LCD1602.webp" width="200"/>|
+| [DHT11 Temperature and Humidity Sensor](https://www.canadarobotix.com/products/1754)       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="200"/>|
 
 ## Instructions
 
@@ -34,11 +34,12 @@ Whether you're new to electronics or a seasoned maker, this project is a great w
 - Signal to pin 2
 - Vcc to 5V
 - Gnd to GND
-<img src="/img/docs/UNO-R4-Starter-Kit/Thermometer.png" width="600" height="600" />
+<img src="/img/docs/UNO-R4-Starter-Kit/Thermometer.png" width="500" />
 
 2. Download the "LiquidCrystal" and "DHT" libraries from the Library Manager on the Arduino IDE.
 
 3. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 #include <LiquidCrystal.h>
 #include <DHT.h>
@@ -121,3 +122,7 @@ void loop() {
 4. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 5. Run! Observe the temperature and humidity on the display.
+
+|Prev|Next|
+|---|---|
+|[19. LCD 1602 Module](LCD-1602-Module.md)|[21. Shift Registers and LED](Shift-Registers-and-LED.md)|

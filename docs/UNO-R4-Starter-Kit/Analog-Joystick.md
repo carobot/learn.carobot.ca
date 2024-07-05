@@ -1,16 +1,16 @@
 ---
 sidebar_position: 10
 ---
-# Analog Joystick
+# 10. Analog Joystick
 Analog joysticks are versatile input devices commonly used in game controllers, robotics, and various DIY projects. They provide a simple and intuitive way to control the movement or direction of objects and can be easily interfaced with Arduino boards.
 
 ## Materials
-| Component                                   | Image                                                                                          |
-|---------------------------------------------|------------------------------------------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" height="150" />       |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" height="150" />       |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190" height="150" />               |
-| Joystick Module                      | <img src="/img/docs/UNO-R4-Starter-Kit/joystick.webp" width="200" height="200" />               |
+| Component                                   | Image                                                         |
+|---------------------------------------------|---------------------------------------------------------------|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Joystick Module](https://www.canadarobotix.com/products/1240)                             | <img src="/img/docs/UNO-R4-Starter-Kit/joystick.webp" width="200" />|
 
 ## Instructions
 
@@ -22,9 +22,10 @@ Analog joysticks are versatile input devices commonly used in game controllers, 
 - VRx to A0
 - VRy to A1
 - SW to pin 2
-<img src="/img/docs/UNO-R4-Starter-Kit/joystick-module.png" width="550" height="300" />
+<img src="/img/docs/UNO-R4-Starter-Kit/joystick-module.png" width="500" />
 
 2. Paste the following code into your main Arduino sketch:
+#### Code
 ```cpp
 // Arduino pin numbers
 const int SW_pin = 2;   // digital pin connected to switch output
@@ -54,3 +55,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Open the serial monitor and observe the print out statements as you move the joystick module.
+
+|Prev|Next|
+|---|---|
+|[9. DHT11 Temperature and Humidity Sensor](DHT11-Temp-and-Humidity-Sensor.md)|[11. IR Receiver Module](IR-Receiver.md)|
