@@ -57,4 +57,4 @@ void loop() {
 
 |Prev|Next|
 |---|---|
-|[18. RC522 RFID Module](RFID-Module.md)|[20. Thermometer](Thermometer.md)|
+|[18. RC522 RFID Module](RFID-module.md)|[20. Thermometer](Thermometer.md)|
