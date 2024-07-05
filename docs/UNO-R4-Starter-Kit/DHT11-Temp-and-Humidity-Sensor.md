@@ -7,10 +7,10 @@ This tutorial will help you learn how ouse the temperature and humidity sensor.
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  />|
-| DHT11 Temperature and Humidity Sensor       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="200" />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [DHT11 Temperature and Humidity Sensor](https://www.canadarobotix.com/products/1754)       | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.jpg" width="200" />|
 
 ## Instructions
 
@@ -62,3 +62,6 @@ void loop() {
 
 6. Test! Open the serial monitor and watch the temperature and humidity vary depending on nearby objects!
 
+|Prev|Next|
+|---|---|
+|[8. Membrane Switch Module](Membrane-Switch-Module.md)|[10. Analog Joystick](Analog-Joystick.md)|

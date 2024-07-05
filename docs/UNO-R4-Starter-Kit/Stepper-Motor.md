@@ -8,10 +8,10 @@ The 28BYJ-48 stepper motor is a popular choice among hobbyists and makers for it
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" /> |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" /> |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
-| ULN2003 Stepper Motor Driver Board and 28BYJ-48 Stepper Motor       | <img src="/img/docs/UNO-R4-Starter-Kit/stepper-and-driver.jpg" width="200" />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [ULN2003 Stepper Motor Driver Board and 28BYJ-48 Stepper Motor](https://www.canadarobotix.com/products/1749)       | <img src="/img/docs/UNO-R4-Starter-Kit/stepper-and-driver.jpg" width="200" />|
 
 ## Instructions
 1. Connect the four wires from the stepper motor to the OUT1, OUT2, OUT3, and OUT4 pins on the ULN2003 driver. Make the following connections using the breadboard and jumper wires.
@@ -258,3 +258,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Twist the rotary encoder and press the button! Observe the stepper motors movements and the serial monitor to track the counter.
+
+|Prev|Next|
+|---|---|
+|[26. DC Motor and Relay](DC-Motor.md)|N/A|

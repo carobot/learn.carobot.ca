@@ -7,17 +7,17 @@ This tutorial will teach you to how to use "pull-up" to turn on an LED using a b
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/> |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
-| LED (white, red, blue, or green)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" />|
-| Resistor (220 ohms for the LED, optional if using internal pull-up resistors for buttons) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
-| Tilt Sensor (ball switch)                   | <img src="/img/docs/UNO-R4-Starter-Kit/ball-switch.webp" width="200"  />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [LED (white, red, blue, or green)](https://www.canadarobotix.com/products/1282)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" />|
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+| [Tilt Sensor](https://www.canadarobotix.com/products/2326)                   | <img src="/img/docs/UNO-R4-Starter-Kit/ball-switch.webp" width="200"  />|
 
 ## Instructions
 1. Make the following connections using the breadboard and jumper wires:
 - LED positive terminal to pin 13
-- LED negative terminal to GND
+- LED negative terminal to a 220 ohm resistor. Place the other leg of the resistor into ground.
 Use male to female jumper wires for the following connections.
 - One leg of the ball switch to pin 2
 - The other leg of the ball switch to GND
@@ -48,3 +48,7 @@ void loop() {
 3. Upload the code to the arduino and run the code.
 
 4. Test the code! Tilt the ball switch and watch the LED turn off!
+
+|Prev|Next|
+|---|---|
+|[4. Passive Buzzer](Passive-Buzzer.md)|[6. Servo](Servo.md)|

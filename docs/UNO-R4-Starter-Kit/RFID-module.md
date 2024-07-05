@@ -8,10 +8,10 @@ This module is commonly used for security in offices, attendance at schools, and
 ## Materials
 | Component           |Image                                                                          |
 |---------------------|-------------------------------------------------------------------------------|
-| Breadboard          | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  />       |
-| Jumper wires        | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />     |
-| Arduino Minima R4   | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="190"  />|
-| RC522 RFID Module   | <img src="/img/docs/UNO-R4-Starter-Kit/RFID-module/RFID-2.jpg" width="300"  />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [RC522 RFID Module](https://www.canadarobotix.com/products/1256)   | <img src="/img/docs/UNO-R4-Starter-Kit/RFID-module/RFID-2.jpg" width="300"  />|
 
 ## Instructions
 
@@ -107,3 +107,7 @@ void loop() {
 5. Test the module! Open to serial monitor and scan your RFID card and keychain with the module.
 
 6. Customize! Play around with the code and personlize it to suit your own personal projects.
+
+|Prev|Next|
+|---|---|
+|[17. Sound Sensor](Sound-Sensor.md)|[19. LCD 1602 Module](LCD-1602-Module.md)|

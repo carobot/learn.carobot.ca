@@ -7,10 +7,10 @@ The water level detection sensor is a fundamental component for monitoring water
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200" />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
-| Water Level Detection Sensor Module         | <img src="/img/docs/UNO-R4-Starter-Kit/wlds.webp" width="200"/>|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Water Level Detection Sensor Module](https://www.canadarobotix.com/products/1756)         | <img src="/img/docs/UNO-R4-Starter-Kit/wlds.webp" width="200"/>|
 
 ## Instructions
 
@@ -50,3 +50,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Watch the serial monitor as you submerge the water level detection sensor into water.
+
+|Prev|Next|
+|---|---|
+|[14. PIR Motion Sensor](HCSR312-AM312.md)|[16. DS1307 RTC Module](DS1307-RTC-Module.md)|

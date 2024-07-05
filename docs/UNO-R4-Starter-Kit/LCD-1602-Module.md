@@ -7,10 +7,10 @@ The LCD 1602 module is a popular display device that uses a 16x2 character grid,
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" /> |
-| LCD 1602 Module                             | <img src="/img/docs/UNO-R4-Starter-Kit/DHT11-Sensor.png" width="200"  />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [LCD 1602 Module](https://www.canadarobotix.com/products/1297)                             | <img src="/img/docs/UNO-R4-Starter-Kit/LCD1602.webp" width="200"  />|
 
 ## Instructions
 
@@ -54,3 +54,7 @@ void loop() {
 3. Connect your Arduino to your laptop using a USB-C cable and upload the code to the arduino.
 
 4. Test! Observe the text on the LCD display and the time changing!
+
+|Prev|Next|
+|---|---|
+|[18. RC522 RFID Module](RFID-Module.md)|[20. Thermometer](Thermometer.md)|

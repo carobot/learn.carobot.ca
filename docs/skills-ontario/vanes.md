@@ -21,7 +21,7 @@ To have the least amount of *resistance*, it is important to have an *aerodynami
 
 ## Angle of Attack
 The angle at which the wind hits the blades is called the *angle of attack (AoA)*. For eg: If you hold your hand out of a moving car (don’t do it, it’s dangerous!) and your hand is facing the wind, the wind is attacking your hand at 90 degrees and you’re capturing the maximum amount of wind. But if your hand is parallel to the wind, you don’t feel as much force pushing your hand and you’re barely capturing any wind.
-<img src="/img/docs/assembly-guide/angle_of_attack.jpeg" width="700" height="400" />
+<img src="/img/docs/assembly-guide/angle_of_attack.jpeg" width="700"/>
 ### The AoA determines the *lift* and the *drag*. So what exactly are lift and drag?
 When an airplane takes-off, the wings are shaped in such a way that the wind is able to give the wings a “lift” to help the plane take-off whereas drag is the opposite and slows down the wings.
 

@@ -7,10 +7,10 @@ Sound sensors are versatile components that can detect and respond to sound leve
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"/>|
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"/>|
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"/>|
-| Sound Sensor                                | <img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.webp" width="200"/>|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Sound Sensor](https://www.canadarobotix.com/products/2105)                                | <img src="/img/docs/UNO-R4-Starter-Kit/sound-sensor.webp" width="200"/>|
 
 ## Instructions
 
@@ -64,3 +64,7 @@ void loop(){
 4. Test! Make noises near your sound sensor and watch the LED turn on and off. You can also open the serial monitor to see analog values fluctuate.
 
 5. Optionally, you can increase sensitivity of the sound sensor by rotating the potentiometer clockwise. You can also decrease sensitivity by rotating the potentiometer counter-clockwise. Additinally, you can adjust the code to only turn on the LED at different thresholds. Look at the comments in the code to see where to make edits.
+
+|Prev|Next|
+|---|---|
+|[16. DS1307 RTC Module](DS1307-RTC-Module.md)|[18. RC522 RFID Module](RFID-Module.md)|

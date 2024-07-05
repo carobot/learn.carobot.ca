@@ -7,13 +7,13 @@ Photocells, also known as photoresistors or light-dependent resistors (LDRs), ar
 ## Materials
 | Component                                   | Image                                                         |
 |---------------------------------------------|---------------------------------------------------------------|
-| Breadboard                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200"  /> |
-| Jumper wires                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  /> |
-| Arduino Uno R4 Minima                       | <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200"  /> |
-| Photocell                                   | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="200"  /> |
-| Resistors                                   | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200"  /> |
-| LEDs                                        | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200" />|
-| 74HC595 Shift Register                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
+| [Breadboard](https://www.canadarobotix.com/products/160)                                  | <img src="/img/docs/UNO-R4-Starter-Kit/breadboard.webp" width="200" />|
+| [Jumper wires](https://www.canadarobotix.com/products/922)                                | <img src="/img/docs/UNO-R4-Starter-Kit/jumper-wires.webp" width="200"  />|
+| [Arduino Uno R4 Minima](https://www.canadarobotix.com/collections/featured-1/products/3060)| <img src="/img/docs/UNO-R4-Starter-Kit/arduino-r4-minima.webp" width="200" />|
+| [Photocell](https://www.canadarobotix.com/products/1138)                                   | <img src="/img/docs/UNO-R4-Starter-Kit/photocell.webp" width="200"  /> |
+| [Resistors (220 ohms for the LED, optional if using internal pull-up resistors for buttons)](https://www.canadarobotix.com/products/5138) | <img src="/img/docs/UNO-R4-Starter-Kit/resistors.webp" width="200" />|
+| [LED (white, red, blue, or green)](https://www.canadarobotix.com/products/1282)            | <img src="/img/docs/UNO-R4-Starter-Kit/LED.jpg" width="200"/>|
+| [74HC595 Shift Register](https://www.canadarobotix.com/products/848)                      | <img src="/img/docs/UNO-R4-Starter-Kit/74HC595.png" width="200" />|
 
 
 ## Instructions
@@ -86,3 +86,7 @@ void loop() {
 4. Test! Vary the light environment around the photocell and watch the LEDs turn on and off!
 
 5. Optional: You can calibrate the sensor by changing the threshold values in the If statements!
+
+|Prev|Next|
+|---|---|
+|[22. The Serial Monitor](Serial-Monitor.md)|[24. Shift Registers and 7 Segment Display](Shift-Registers-and-Display.md)|
