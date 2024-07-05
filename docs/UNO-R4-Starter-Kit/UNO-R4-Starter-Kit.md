@@ -28,7 +28,7 @@ The projects covered in this guide will teach you how to connect and program dif
 - [15. Water Level Detection Sensor](Water-Level-Detection-Sensor.md)
 - [16. DS1307 RTC Module](DS1307-RTC-Module.md)
 - [17. Sound Sensor](Sound-Sensor.md)
-- [18. RC522 RFID Module](RFID-Module.md)
+- [18. RC522 RFID Module](RFID-module.md)
 - [19. LCD 1602 Module](LCD-1602-Module.md)
 - [20. Thermometer](Thermometer.md)
 - [21. Shift Registers and LED](Shift-Registers-and-LED.md)
