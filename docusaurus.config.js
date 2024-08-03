@@ -58,7 +58,17 @@ const config = {
         path: 'guide',
         routeBasePath: 'guide',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
+        //editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'skills-ontario',
+        path: 'skills-ontario',
+        routeBasePath: 'skills-ontario',
+        sidebarPath: require.resolve('./sidebars.js'),
+        //editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       },
     ],
   ],
@@ -93,9 +103,10 @@ const config = {
           activeBaseRegex: `/guide/`,
         },
         {
-          to: 'skills-ontario/',
+          to: '/skills-ontario/skills-ontario/',
+          label: 'Skills Ontario Green Energy',
           position: 'left',
-          label: 'Skills Ontario',
+          activeBaseRegex: `/skills-ontario/`,
         },
         {
           href: 'https://www.canadarobotix.com',
@@ -122,6 +133,10 @@ const config = {
             {
               label: 'Guide',
               to: '/guide/guide',
+            },
+            {
+              label: 'Skills Ontario',
+              to: '/skills-ontario/skills-ontario',
             },
           ],
         },
