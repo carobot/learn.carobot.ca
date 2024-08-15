@@ -71,6 +71,16 @@ const config = {
         //editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'Projects',
+        path: 'Projects',
+        routeBasePath: 'Projects',
+        sidebarPath: require.resolve('./sidebars.js'),
+        //editUrl: 'https://github.com/carobot/learn.carobot.ca/tree/main/',
+      },
+    ],
   ],
 
   themeConfig: {
@@ -101,6 +111,12 @@ const config = {
           label: 'Guide',
           position: 'left',
           activeBaseRegex: `/guide/`,
+        },
+        {
+          to: '/Projects/Introduction',
+          label: 'Projects',
+          position: 'left',
+          activeBaseRegex: `/Projects/`,
         },
         {
           to: '/skills-ontario/skills-ontario/',
