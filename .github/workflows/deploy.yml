@@ -16,15 +16,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: install docusaurus
-        run: yarn add docusaurus --dev
-        # run: yarn install --frozen-lockfile - dependency issue, best practice?
+        run: npm install docusaurus --save-dev
+        # run: npm ci - dependency issue, best practice?
       - name: Build website
-        run: yarn build
+        run: npm run build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
