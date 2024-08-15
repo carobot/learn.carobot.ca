@@ -75,12 +75,12 @@ performance in diverse operational environments.
 
 | Description         | Properties          | Quantity | Image                        |
 |---------------------|---------------------|----------|------------------------------|
-| [ESP32 Eval Board](https://www.canadarobotix.com/products/2594) | 3.3V module         | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/ESP32.webp" width="300" /> |
+| [ESP32 Eval Board](https://www.canadarobotix.com/products/2594) | 3.3V module         | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/ESP-32.webp" width="300" /> |
 | [1.8” TFT LCD](https://www.canadarobotix.com/products/3056)        | Coloured 5V module  | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/1.8-LCD.webp" width="300" />     |
-| [Bread board](https://www.canadarobotix.com/products/160)  | Standard            | 2        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/breadboard.jpg" width="300" /> |
-| [RGB LED module](https://www.canadarobotix.com/products/2537)  | Tri-colour          | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/RGB-LED.png" width="300" /> |
-| [Tactile Push Button](https://www.canadarobotix.com/products/545)   | Standard            | 5        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/switch-button.webp" width="300" />  |
-| [Wires](https://www.canadarobotix.com/products/922)             | Connections wiring  | Many     | <img src="/img/docs/Projects/ESP32-Wifi-Tool/jumper-wires.webp" width="300" />           |
+| [Bread board](https://www.canadarobotix.com/products/160)  | Standard            | 2        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/bread-board.jpg" width="300" /> |
+| [RGB LED module](https://www.canadarobotix.com/products/2537)  | Tri-colour          | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/RGBLED.png" width="300" /> |
+| [Tactile Push Button](https://www.canadarobotix.com/products/545)   | Standard            | 5        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/switchbutton.webp" width="300" />  |
+| [Wires](https://www.canadarobotix.com/products/922)             | Connections wiring  | Many     | <img src="/img/docs/Projects/ESP32-Wifi-Tool/jumperwires.webp" width="300" />           |
 | Capacitor #1 | 3.3uF electrolytic  | 5        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/10uF-capacitor.webp" width="300" /> |
 | [Capacitor #2](https://www.canadarobotix.com/products/960) | 10uF electrolytic   | 2        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/10uF-capacitor.webp" width="300" /> |
 | [Micro USB Cable](https://www.canadarobotix.com/products/1488) | Micro-USB           | 1        | <img src="/img/docs/Projects/ESP32-Wifi-Tool/micro-usb-cable.webp" width="300" />  |
