@@ -19,9 +19,9 @@ jobs:
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install
-      - name: install docusaurus
-        run: yarn add docusaurus --dev
+        run: yarn install --frozen-lockfile
+      # - name: install docusaurus
+      # run: yarn add docusaurus --dev
         # run: yarn install --frozen-lockfile - dependency issue, best practice?
       - name: Build website
         run: yarn build
