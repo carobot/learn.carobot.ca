@@ -37,7 +37,7 @@ For browser-based online access, simply open up [https://bipes.net.br/ide/](http
 
 For browser-based offline access:
 
-1. Navigate to this GitHub repo: [https://github.com/liuandy1207/BIPES-offline](https://github.com/liuandy1207/BIPES-offline)
+1. Navigate to this GitHub repo: [https://github.com/carobot/BIPES-offline](https://github.com/carobot/BIPES-offline)
 
 2. Click the green **Code** button and select **Download ZIP**. <br/>
    This will download a copy of the repository locally. The downloaded folder should be titled **BIPES-offline-master**.
@@ -79,6 +79,7 @@ Now that we have access to BIPES, we will build a basic LED blinking project wit
 If everything is wired correctly, then your LED should blink in 1 second intervals! <br/>
 
 This is the end of this tutorial. You should now know the basics of using BIPES for an ESP32. <br/>
-Now, go an explore the different blocks and make more complex programs!
+
+Now, go and explore the more blocks to make more complex programs!
 
 
