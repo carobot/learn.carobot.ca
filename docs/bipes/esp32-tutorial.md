@@ -1,3 +1,8 @@
+---
+title: BIPES using ESP32
+sidebar_position: 1
+---
+
 # BIPES Tutorial for ESP32
 
 This tutorial will cover the basics of using BIPES (Block-based Integrated Platform for Embedded Systems) with an ESP32 microcontroller.
@@ -81,5 +86,3 @@ If everything is wired correctly, then your LED should blink in 1 second interva
 This is the end of this tutorial. You should now know the basics of using BIPES for an ESP32. <br/>
 
 Now, go and explore the more blocks to make more complex programs!
-
-

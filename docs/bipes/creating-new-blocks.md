@@ -1,3 +1,8 @@
+---
+title: BIPES Custom Blocks
+sidebar_position: 2
+---
+
 # Creating New Blocks in BIPES
 
 You are able to create custom blocks for your toolbox in BIPES. <br/>
@@ -36,17 +41,12 @@ NOTE: ENSURE THAT THE NAME OF YOUR BLOCK IS CONSISTENT FOR ALL OF THE STEPS!!!
 3. Paste `<block type="BLOCK_NAME"></block>` within your custom category tag. <br/>
    Ensure that BLOCK_NAME matches the name of your block as defined in the Block Definition and Generator Stub.
 
-
-### Step 04: Remake
+## Step 04: Remake
 
 1. Open up a terminal and navigate to the **BIPES-offline-master** directory.
 2. Run `make offline` in this directory.
 3. Once completed, the file **BIPES-offline-master/ui/index_offline.html** should be updated with your custom blocks (make sure you have the correct board selected). 
 
-This concludes a brief summary of how to create custom toolbox blocks for a board in BIPES. <br/> 
+This concludes a brief summary of how to create custom toolbox blocks for a board in BIPES.
 
 Now, try to make some custom blocks on your own! Good luck!
-
-
-
-
