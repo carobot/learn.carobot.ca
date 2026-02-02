@@ -13,7 +13,7 @@ For the Discovery Kit, we’ve written some example codes to reduce the amount o
 
 Go to the Discovery Kit [Example Codes Repo](https://github.com/carobot/CAROBOT-Arduino-Discovery-Starter-Kit-Lite-v3)
 
-Download the example codes using the green **"<> Code" button > Download ZIP**
+Download the example codes using the green **"Code" button > Download ZIP**
 
 <img src="\img\docs\discovery_kit\using_code.png" />
 
