@@ -1,9 +1,9 @@
 ---
-title: Circuit 01 - Blinking a LED
+title: Circuit 01 - Blinking an LED
 sidebar_position: 5
 ---
 
-# Circuit 01 - Blinking a LED
+# Circuit 01 - Blinking an LED
 
 ## Background
 
