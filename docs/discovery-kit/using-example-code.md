@@ -7,13 +7,13 @@ sidebar_position: 5
 
 ## Background
 
-Now that you got a taste of writing code in the Arduino IDE, we can speed up the process by loading pre-written example codes instead. In the Arduino world, the best way to learn is by experimenting and there are no better way in experimenting then using example codes that’s already out there in the Arduino community. 
+Now that you have a taste of writing code in the Arduino IDE, we can speed up the process by loading pre-written example codes instead. In the Arduino world, the best way to learn is by experimenting, and there is no better way to experiment than using example codes that are already available in the Arduino community. 
 
-For the purpose of the Discovery Kit, we’ve wrote some example codes to reduce the amount of labour on your fingers. 
+For the Discovery Kit, we’ve written some example codes to reduce the amount of labour on your fingers. 
 
-Go to: [carobot.cc/code](https://carobot.cc/code)
+Go to the Discovery Kit [Example Codes Repo](https://github.com/carobot/CAROBOT-Arduino-Discovery-Starter-Kit-Lite-v3)
 
-Download the example codes for "Arduino Discovery Starter Kit (Lite) v3"
+Download the example codes using the green **"<> Code" button > Download ZIP**
 
 <img src="\img\docs\discovery_kit\using_code.png" />
 
