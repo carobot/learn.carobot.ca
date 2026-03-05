@@ -71,6 +71,8 @@ Now that we have access to BIPES, we will build a basic LED blinking project wit
 
 4. Wire an LED to the ESP32 using a breadboard. The selected pin should connect to the anode (long leg) of the LED. 
 
+5. To wire the LED, connect the output pin to the breadboard using a jumper wire. In the same row, connect the anode of the LED. In a different row, connect the cathode of the LED, as well as a jumper wire connecting to one of the ESP32's ground pins. This creates a complete circuit.
+
 5. Connect your ESP32 to your computer using a cable capable of data transfer. 
 
 6. Look to the top bar of the BIPES interface. 
