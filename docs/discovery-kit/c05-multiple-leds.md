@@ -1,6 +1,6 @@
 ---
 title: Circuit 05 - Multiple LEDs
-sidebar_position: 5
+sidebar_position: 10
 ---
 
 # Circuit 05 - Multiple LEDs: Bar Graph and Dimming

@@ -1,6 +1,6 @@
 ---
 title: Circuit 08 - Photo-Resistor
-sidebar_position: 5
+sidebar_position: 13
 ---
 
 # Circuit 08 - Photo-Resistor

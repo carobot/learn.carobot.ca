@@ -1,6 +1,6 @@
 ---
 title: Circuit 09 - Spinning a Motor
-sidebar_position: 5
+sidebar_position: 14
 ---
 
 # Circuit 09 - Spinning a Motor

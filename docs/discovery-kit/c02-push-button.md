@@ -1,6 +1,6 @@
 ---
 title: Circuit 02 - Push Buttons
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Circuit 02 - Push Buttons
