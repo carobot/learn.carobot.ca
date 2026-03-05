@@ -73,15 +73,15 @@ Now that we have access to BIPES, we will build a basic LED blinking project wit
 
 5. To wire the LED, connect the output pin to the breadboard using a jumper wire. In the same row, connect the anode of the LED. In a different row, connect the cathode of the LED, as well as a jumper wire connecting to one of the ESP32's ground pins. This creates a complete circuit.
 
-5. Connect your ESP32 to your computer using a cable capable of data transfer. 
+6. Connect your ESP32 to your computer using a cable capable of data transfer. 
 
-6. Look to the top bar of the BIPES interface. 
+7. Look to the top bar of the BIPES interface. 
 
-7. Click the plug icon besides the serial connection icon and select the port that ends with **(cu.usbserial-0001)**. 
+8. Click the plug icon besides the serial connection icon and select the port that ends with **(cu.usbserial-0001)**. 
 
-8. Then look beside the plug icon and ensure **ESP32** is selected in the board seleciton area. 
+9. Then look beside the plug icon and ensure **ESP32** is selected in the board seleciton area. 
 
-9. Click the play button to send the program to the ESP32. 
+10. Click the play button to send the program to the ESP32. 
 
 If everything is wired correctly, then your LED should blink in 1 second intervals! <br/>
 
