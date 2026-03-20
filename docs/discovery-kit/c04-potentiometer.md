@@ -1,6 +1,6 @@
 ---
 title: Circuit 04 - Potentiometers (POT)
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # Circuit 04 - Potentiometers (POT)
